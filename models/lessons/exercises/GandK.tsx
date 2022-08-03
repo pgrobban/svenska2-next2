@@ -60,6 +60,7 @@ const exercises = [
     id={"guess-correct-pronunciation-g"}
     numberInLesson={1}
     title={"Guess correct pronunciation - G"}
+    // @ts-ignore
     ExerciseComponent={GuessCorrectPronunciation}
     exerciseComponentProps={{
       instructions: guessCorrectPronunciationGInstructions,
@@ -73,6 +74,7 @@ const exercises = [
     id={"guess-correct-pronunciation-k"}
     numberInLesson={2}
     title={"Guess correct pronunciation - K"}
+    // @ts-ignore
     ExerciseComponent={GuessCorrectPronunciation}
     exerciseComponentProps={{
       instructions: guessCorrectPronunciationKInstructions,

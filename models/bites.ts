@@ -76,4 +76,4 @@ const bites: Bite[] = [
   }*/
 ];
 
-export default sortBy(bites, "name");
+export default sortBy(bites, "name") as Bite[];

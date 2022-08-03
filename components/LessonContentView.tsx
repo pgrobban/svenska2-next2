@@ -12,7 +12,7 @@ const LessonContentView: React.FC<LessonViewProps> = (props) => {
   const { lessonChunks } = props;
 
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
-  const carousel = useRef(null);
+  const carousel = useRef<Carousel>(null);
 
   const slides = lessonChunks.map((chunk, index) => (
     <React.Fragment key={index}>{chunk}</React.Fragment>
@@ -25,7 +25,7 @@ const LessonContentView: React.FC<LessonViewProps> = (props) => {
 
   useEffect(() => {
     onSlideChange(0);
-    carousel?.current.goToSlide(0);
+    carousel?.current?.goToSlide(0);
   }, [lessonChunks]);
 
   return (

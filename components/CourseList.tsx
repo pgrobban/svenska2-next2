@@ -15,15 +15,14 @@ const coursesInCourseList = courses.filter(
 );
 
 interface CourseListProps {
-  activeLessonUrlName: string;
+  activeLessonUrlName?: string;
 }
 
 const CourseList: React.FC<CourseListProps> = (props) => {
   const { activeLessonUrlName } = props;
-  const activeCourseName = getCourseNameByLessonUrlName(
-    courses,
-    activeLessonUrlName
-  )?.name;
+  const activeCourseName = activeLessonUrlName
+    ? getCourseNameByLessonUrlName(courses, activeLessonUrlName)?.name
+    : undefined;
   const [expandedCourse, setExpandedCourse] = useState<
     string | null | undefined
   >(activeCourseName);

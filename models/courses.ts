@@ -1,4 +1,3 @@
-import { chunks as beforeYouStartChunks } from "./lessons/BeforeYouStart";
 import intermediateGrammarCourse from "./courses/intermediateGrammarCourse";
 import pronunciationCourse from "./courses/pronunciationCourse";
 import readingMaterialCourse from "./courses/readingMaterialCourse";
@@ -14,7 +13,7 @@ const courses = [
         urlName: "before-you-start",
         description:
           "A quick start guide on how to use the interactive textbook.",
-        chunks: beforeYouStartChunks,
+        chunks: [],
         exercises: [],
         viewProps: {
           hideBottomNavigation: true,

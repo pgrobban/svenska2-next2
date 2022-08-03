@@ -1,7 +1,6 @@
 import React from "react";
 import Exercise from "../../../components/Exercise";
 import ReadTongueTwisters from "../../../components/exercises/ReadTongueTwisters";
-import { ExerciseProps } from "../../types";
 
 const exercises = [
   <Exercise
@@ -9,6 +8,7 @@ const exercises = [
     id={"tongue-twister-sh"}
     numberInLesson={1}
     title={"Tongue twister - SH sound"}
+    // @ts-ignore
     ExerciseComponent={ReadTongueTwisters}
     exerciseComponentProps={{
       tongueTwisters: [

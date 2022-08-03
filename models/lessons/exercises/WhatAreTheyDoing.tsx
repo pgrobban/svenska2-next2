@@ -14,6 +14,7 @@ const exercises = [
     id="written-word-test-what-are-they-doing-1"
     numberInLesson={1}
     title="What do the words mean?"
+    // @ts-ignore
     ExerciseComponent={WrittenWordTest}
     exerciseComponentProps={{
       words: [
@@ -64,6 +65,7 @@ const exercises = [
     id="written-word-test-what-are-they-doing-2"
     numberInLesson={2}
     title="How do you say it in Swedish?"
+    // @ts-ignore
     ExerciseComponent={WrittenWordTest}
     exerciseComponentProps={{
       words: [
@@ -114,6 +116,7 @@ const exercises = [
     id="choose-correct-option-what-are-they-doing"
     numberInLesson={3}
     title="Choose the correct option"
+    // @ts-ignore
     ExerciseComponent={ChooseTheCorrectOption}
     exerciseComponentProps={{
       sentences: [
@@ -145,6 +148,7 @@ const exercises = [
     id="write-verb-forms"
     numberInLesson={4}
     title="Dictionary form and present tense"
+    // @ts-ignore
     ExerciseComponent={WriteVerbForms}
     exerciseComponentProps={{
       wordsInDictionaryFormWithMeaning: [

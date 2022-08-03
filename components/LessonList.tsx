@@ -6,7 +6,7 @@ import { COURSES_PATH } from "../helpers/utils";
 
 interface Props {
   lessons: Lesson[];
-  activeLessonUrlName: string;
+  activeLessonUrlName?: string;
 }
 
 const LessonList: React.FC<Props> = (props: Props) => {

@@ -41,6 +41,7 @@ const exercises = [
     id={"which-letter-vowels"}
     numberInLesson={2}
     title={"Which letter? - Vowels"}
+    // @ts-ignore
     ExerciseComponent={WhichLetter}
     exerciseComponentProps={{
       requiredCorrectAnswersInARow: 10,
@@ -53,6 +54,7 @@ const exercises = [
     id={"which-letter-consonants"}
     numberInLesson={3}
     title={"Which letter? - Consonants"}
+    // @ts-ignore
     ExerciseComponent={WhichLetter}
     exerciseComponentProps={{
       requiredCorrectAnswersInARow: 15,
@@ -65,6 +67,7 @@ const exercises = [
     id={"write-what-you-hear-names"}
     numberInLesson={4}
     title={"Write what you hear"}
+    // @ts-ignore
     ExerciseComponent={WriteWhatYouHear}
     exerciseComponentProps={{
       words: [

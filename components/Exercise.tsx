@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { ExerciseProps } from "../models/types";
-import { DateTime } from "luxon";
 import Image from "next/image";
 
 export interface CommonExerciseProps {
@@ -16,7 +15,7 @@ const Exercise: React.FC<CommonExerciseProps> = (
   props: CommonExerciseProps
 ) => {
   const [exerciseCompletionDate, setExerciseCompletionDate] =
-    useState<DateTime | null>(null);
+    useState<Date | null>(null);
   const {
     numberInLesson,
     title,
@@ -45,15 +44,14 @@ const Exercise: React.FC<CommonExerciseProps> = (
       </h3>
       {exerciseCompletionDate && (
         <small>
-          Completed on{" "}
-          {exerciseCompletionDate.setLocale("en-US").toFormat("DD")}
+          Completed on {exerciseCompletionDate.toISOString().substring(0, 6)}
         </small>
       )}
 
       <ExerciseComponent
         onMarkAsCompleted={
           !exerciseCompletionDate
-            ? () => setExerciseCompletionDate(DateTime.local())
+            ? () => setExerciseCompletionDate(new Date())
             : () => {}
         }
         {...exerciseComponentProps}

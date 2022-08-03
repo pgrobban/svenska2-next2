@@ -4,7 +4,7 @@ import bites from "../models/bites";
 import BiteLink from "./BiteLink";
 
 interface CourseListProps {
-  activeBiteUrlName: string;
+  activeBiteUrlName?: string;
 }
 
 const CourseList: React.FC<CourseListProps> = (props) => {

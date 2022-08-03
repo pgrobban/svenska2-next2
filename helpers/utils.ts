@@ -70,7 +70,7 @@ export const SWEDISH_WEEK_DAYS = [
 ];
 
 export const getCourseNameByLessonUrlName = (
-  courses,
+  courses: Course[],
   lessonUrlName: string
 ): Course | undefined => {
   const foundCourse = find(courses, {
