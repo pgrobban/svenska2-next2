@@ -21,7 +21,7 @@ const AudioButton: React.FC<Props> = (props) => {
       style={{ minWidth: label ? 105 : 0 }}
       variant="contained"
       color="primary"
-      className={`audio-button w3-margin-right-small ${className || ''}`}
+      className={`audio-button w3-margin-right-small ${className || ""}`}
       onClick={() => audio?.play()}
     >
       <Icon type="sound" style={{ marginRight: label ? 5 : 0 }} /> {label}

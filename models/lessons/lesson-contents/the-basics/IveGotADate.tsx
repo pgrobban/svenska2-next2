@@ -3,14 +3,14 @@ import { Table, TableBody, TableCell, TableRow } from "@mui/material";
 import WordList from "../../../../components/WordList";
 import {
   iveGotADateWords,
-  iveGotADateAdditionalWords
+  iveGotADateAdditionalWords,
 } from "../../word-lists/IveGotADate";
 import AudioButton from "../../../../components/AudioButton";
 import {
   getSwedishDateTodayAsText,
   getSwedishDayOfWeekToday,
   getSwedishDateTodayAsTextAlternate,
-  getSwedishOrdinalDayToday
+  getSwedishOrdinalDayToday,
 } from "../../../../helpers/utils";
 
 const lessonChunks = [
@@ -145,7 +145,8 @@ const lessonChunks = [
     <p className="w3-margin-left">
       Vilken dag är det idag? (Asking for day of the month)
       <br />
-      &rarr; Det är den {new Date().getDate()} ({getSwedishOrdinalDayToday()}) idag.
+      &rarr; Det är den {new Date().getDate()} ({getSwedishOrdinalDayToday()})
+      idag.
     </p>
 
     <p className="w3-margin-left">
@@ -159,7 +160,7 @@ const lessonChunks = [
       <br />
       &rarr; Det är {getSwedishDayOfWeekToday()} idag.
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

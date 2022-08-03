@@ -290,7 +290,7 @@ const chunks = [
       </Link>
     </Button>
     <div className="w3-clear w3-margin" />
-  </div>
+  </div>,
 ];
 
 export default chunks;

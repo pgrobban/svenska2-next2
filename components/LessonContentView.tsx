@@ -22,7 +22,7 @@ const LessonContentView: React.FC<LessonViewProps> = (props) => {
     setCurrentSlideIndex(newSlideIndex);
     window.scrollTo(0, 0);
   };
-  
+
   useEffect(() => {
     onSlideChange(0);
     carousel?.current.goToSlide(0);

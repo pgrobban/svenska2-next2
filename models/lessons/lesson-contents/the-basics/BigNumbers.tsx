@@ -3,7 +3,10 @@ import { Table, TableBody, TableCell, TableRow } from "@mui/material";
 import AudioButton from "../../../../components/AudioButton";
 import WordList from "../../../../components/WordList";
 import { IfDesktop, IfMobile } from "../../../../helpers/showBasedOnScreen";
-import { bigNumbersWords, bigNumbersAdditionalWords } from "../../word-lists/BigNumbers";
+import {
+  bigNumbersWords,
+  bigNumbersAdditionalWords,
+} from "../../word-lists/BigNumbers";
 
 const lessonChunks = [
   <div className="lesson-chunk">
@@ -398,7 +401,7 @@ const lessonChunks = [
         in values of 1, 2, 5 and 10 kr.
       </p>
     </div>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

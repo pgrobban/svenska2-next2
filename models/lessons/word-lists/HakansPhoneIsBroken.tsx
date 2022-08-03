@@ -6,7 +6,7 @@ export const hakansPhoneIsBrokenWords: Word[] = [
     swedish: "sönder",
     english: "broken",
     wordClass: WordClass.Adjective,
-    audioFileName: "sönder.mp3"
+    audioFileName: "sönder.mp3",
   },
   {
     swedish: "tråkigt",
@@ -20,7 +20,7 @@ export const hakansPhoneIsBrokenWords: Word[] = [
         <i>tråkig</i>. We will get back to adverb constructions in a later
         lesson.
       </>
-    )
+    ),
   },
   {
     swedish: "gå",
@@ -38,21 +38,21 @@ export const hakansPhoneIsBrokenWords: Word[] = [
           school and attending classes.
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "tavlan",
     dictionaryForm: "(en) tavla",
     english: "painting",
     wordClass: WordClass.Noun,
-    audioFileName: "tavlan.mp3"
+    audioFileName: "tavlan.mp3",
   },
   {
     swedish: "dyr",
     english: "expensive",
     wordClass: WordClass.Adjective,
-    audioFileName: "dyr.mp3"
-  }
+    audioFileName: "dyr.mp3",
+  },
 ];
 
 export const hakansPhoneIsBrokenAdditionalWords: Word[] = [
@@ -60,6 +60,6 @@ export const hakansPhoneIsBrokenAdditionalWords: Word[] = [
     swedish: "(en) framruta",
     english: "front window",
     wordClass: WordClass.Noun,
-    audioFileName: "framruta.mp3"
-  }
+    audioFileName: "framruta.mp3",
+  },
 ];

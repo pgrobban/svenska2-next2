@@ -12,14 +12,14 @@ export const atThePizzeriaWords: Word[] = [
       <>
         This is the definitive form of the word <i>meny</i>.
       </>
-    )
+    ),
   },
   {
     swedish: "kan",
     audioFileName: "kan.mp3",
     english: "can, may",
     wordClass: WordClass.Verb,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "få",
@@ -36,7 +36,7 @@ export const atThePizzeriaWords: Word[] = [
           <br />= May I have...?
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "Hawaii",
@@ -44,38 +44,38 @@ export const atThePizzeriaWords: Word[] = [
     english: "Hawaii",
     wordClass: WordClass.Noun,
     moreInfoComponent:
-      "Name of a US state as well as a pizza with pineapple topping."
+      "Name of a US state as well as a pizza with pineapple topping.",
   },
   {
     swedish: "utan",
     audioFileName: "utan.mp3",
     english: "without",
-    wordClass: WordClass.Preposition
+    wordClass: WordClass.Preposition,
   },
   {
     swedish: "skinka",
     audioFileName: "skinka.mp3",
     english: "ham",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "med",
     audioFileName: "med.mp3",
     english: "with",
     wordClass: WordClass.Preposition,
-    moreInfoComponent: "Can be slurred to [me] or [mä]."
+    moreInfoComponent: "Can be slurred to [me] or [mä].",
   },
   {
     swedish: "extra",
     audioFileName: "extra.mp3",
     english: "extra, additional",
-    wordClass: WordClass.Adverb
+    wordClass: WordClass.Adverb,
   },
   {
     swedish: "ost",
     audioFileName: "ost.mp3",
     english: "cheese",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "tack",
@@ -92,7 +92,7 @@ export const atThePizzeriaWords: Word[] = [
         </p>
         <p>Look at the text and observe the different usages of this word.</p>
       </>
-    )
+    ),
   },
   {
     swedish: "javisst",
@@ -107,32 +107,32 @@ export const atThePizzeriaWords: Word[] = [
           cannot be used as adverbs like "sure" or "certainly" in English.
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "vill",
     audioFileName: "vill.mp3",
     english: "want",
     wordClass: WordClass.Verb,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "ha",
     audioFileName: "ha.mp3",
     english: "have",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "Cola Zero",
     audioFileName: "cola zero.mp3",
     english: "Coca-Cola Zero",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "(en) dricka",
     audioFileName: "dricka.mp3",
     english: "(a bottled or canned) drink",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "det blir...",
@@ -145,20 +145,20 @@ export const atThePizzeriaWords: Word[] = [
         amount of money the customer has to pay. Sometimes, <i>det blir</i> is
         omitted and only the sum is announced.
       </>
-    )
+    ),
   },
   {
     swedish: "hundra",
     audioFileName: "hundra.mp3",
     english: "hundred",
-    wordClass: WordClass.Numeral
+    wordClass: WordClass.Numeral,
   },
   {
     swedish: "blippar",
     dictionaryForm: "blippa",
     audioFileName: "blippar.mp3",
     english: "(to pay with contactless card)",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "(ett) bankkort",
@@ -170,42 +170,42 @@ export const atThePizzeriaWords: Word[] = [
         swedish: "(en) bank",
         audioFileName: "bank.mp3",
         english: "bank",
-        wordClass: WordClass.Noun
+        wordClass: WordClass.Noun,
       },
       {
         swedish: "(ett) kort",
         audioFileName: "kort.mp3",
         english: "card",
-        wordClass: WordClass.Noun
-      }
-    ]
+        wordClass: WordClass.Noun,
+      },
+    ],
   },
   {
     swedish: "kvittot",
     dictionaryForm: "(ett) kvitto",
     audioFileName: "kvittot.mp3",
     english: "a receipt",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "dröjer",
     dictionaryForm: "dröja",
     audioFileName: "dröjer.mp3",
     english: "take (time)",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "till",
     audioFileName: "till.mp3",
     english: "to",
-    wordClass: WordClass.Preposition
+    wordClass: WordClass.Preposition,
   },
   {
     swedish: "minuter",
     dictionaryForm: "(en) minut",
     audioFileName: "minuter.mp3",
     english: "minute",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "sätta dig",
@@ -215,7 +215,7 @@ export const atThePizzeriaWords: Word[] = [
     english: "sit",
     wordClass: WordClass.Verb,
     moreInfoComponent:
-      "We will get back to the grammar of this verb phrase in a later lesson."
+      "We will get back to the grammar of this verb phrase in a later lesson.",
   },
   {
     swedish: "under tiden",
@@ -227,15 +227,15 @@ export const atThePizzeriaWords: Word[] = [
         In the text you can interpret it as "while you wait" as the "wait" is
         implicit.
       </>
-    )
+    ),
   },
   {
     swedish: "väntar",
     dictionaryForm: "vänta",
     audioFileName: "väntar.mp3",
     english: "wait",
-    wordClass: WordClass.Verb
-  }
+    wordClass: WordClass.Verb,
+  },
 ];
 
 export const atThePizzeriaAdditionalWords: Word[] = [
@@ -243,25 +243,25 @@ export const atThePizzeriaAdditionalWords: Word[] = [
     swedish: "bara",
     audioFileName: "bara.mp3",
     english: "only, just",
-    wordClass: WordClass.Adverb
+    wordClass: WordClass.Adverb,
   },
   {
     swedish: "vegetarisk",
     audioFileName: "vegetarisk.mp3",
     english: "vegetarian",
-    wordClass: WordClass.Adjective
+    wordClass: WordClass.Adjective,
   },
   {
     swedish: "vegansk",
     audioFileName: "vegansk.mp3",
     english: "vegan",
-    wordClass: WordClass.Adjective
+    wordClass: WordClass.Adjective,
   },
   {
     swedish: "mozzarella",
     audioFileName: "mozzarella.mp3",
     english: "mozzarella (cheese)",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "champinjoner",
@@ -269,98 +269,98 @@ export const atThePizzeriaAdditionalWords: Word[] = [
     audioFileName: "champinjon.mp3",
     english:
       "Agaricus bisporus (a kind of edible mushroom, common topping on pizzas)",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "inbakad",
     audioFileName: "inbakad.mp3",
     english: "oven-baked and folded",
-    wordClass: WordClass.Adjective
+    wordClass: WordClass.Adjective,
   },
   {
     swedish: "(en) ananas",
     audioFileName: "ananas.mp3",
     english: "pineapple",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "räkor",
     dictionaryForm: "(en) räka",
     audioFileName: "räkor.mp3",
     english: "shrimps",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "salami",
     audioFileName: "salami.mp3",
     english: "salami",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "(en) bacon",
     audioFileName: "bacon.mp3",
     english: "bacon",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "(en) lök",
     audioFileName: "lök.mp3",
     english: "onion",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "(ett) ägg",
     audioFileName: "ägg.mp3",
     english: "egg",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "(en) tonfisk",
     audioFileName: "tonfisk.mp3",
     english: "tuna",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "musslor",
     dictionaryForm: "(en) mussla",
     audioFileName: "musslor.mp3",
     english: "mussles",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "gorgonzola",
     audioFileName: "gorgonzola.mp3",
     english: "gorgonzola (cheese)",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "kebab",
     audioFileName: "kebab.mp3",
     english: "kebab (thinly sliced, spiced and processed meat)",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "(en) sås",
     audioFileName: "sås.mp3",
     english: "sauce",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "(en) vitlök",
     audioFileName: "vitlök.mp3",
     english: "garlic",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "köttfärs",
     audioFileName: "köttfärs.mp3",
     english: "minced meat",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "(en) paprika",
     audioFileName: "paprika.mp3",
     english: "paprika",
-    wordClass: WordClass.Noun
-  }
+    wordClass: WordClass.Noun,
+  },
 ];

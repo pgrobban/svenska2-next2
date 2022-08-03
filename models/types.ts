@@ -1,6 +1,5 @@
-
-import { ReactElement, ReactNode } from 'react';
-import { CommonExerciseProps } from '../components/Exercise';
+import { ReactElement, ReactNode } from "react";
+import { CommonExerciseProps } from "../components/Exercise";
 
 export interface Course {
   name: string;
@@ -15,7 +14,7 @@ export interface Lesson {
   exercises: ReactElement<CommonExerciseProps>[];
   viewProps?: {
     hideBottomNavigation?: boolean;
-  }
+  };
 }
 
 export interface ExerciseProps {
@@ -32,7 +31,7 @@ export enum WordClass {
   Interjection = "I",
   Conjunction = "C",
   Numeral = "Nu",
-  Phrase = "Phr"
+  Phrase = "Phr",
 }
 
 export interface Word {
@@ -47,10 +46,10 @@ export interface Word {
 }
 
 export type CorrectIncorrectMark = "correct" | "incorrect";
- 
+
 export interface ShowBasedOnScreenProps {
   inline?: boolean;
   children: ReactNode;
 }
 
-export type Bite = Omit<Lesson, 'description'>;
+export type Bite = Omit<Lesson, "description">;

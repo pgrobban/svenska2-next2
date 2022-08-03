@@ -16,35 +16,35 @@ const exercises = [
           header: "P and K sound",
           recordingFileNameSlow: "tongue-twister/pk.mp3",
           recordingFileNameFast: "tongue-twister/pk-fast.mp3",
-          label: "Packa pappas kappsäck"
+          label: "Packa pappas kappsäck",
         },
         {
           header: "K and S sound",
           recordingFileNameSlow: "tongue-twister/ks.mp3",
           recordingFileNameFast: "tongue-twister/ks-fast.mp3",
-          label: "Kvistfritt kvastskaft"
+          label: "Kvistfritt kvastskaft",
         },
         {
           header: "X and SK sound",
           recordingFileNameSlow: "tongue-twister/x.mp3",
           recordingFileNameFast: "tongue-twister/x-fast.mp3",
-          label: "Sex laxar i en laxask ska paxas."
+          label: "Sex laxar i en laxask ska paxas.",
         },
         {
           header: "SH sound",
           recordingFileNameSlow: "tongue-twister/sh.mp3",
           recordingFileNameFast: "tongue-twister/sh-fast.mp3",
-          label: "Köp tjugo kilo kyckling till Cher."
+          label: "Köp tjugo kilo kyckling till Cher.",
         },
         {
           header: "SJE sound",
           recordingFileNameSlow: "tongue-twister/sje.mp3",
           recordingFileNameFast: "tongue-twister/sje-fast.mp3",
-          label: "Sju sjösjuka sjömän på skeppet Shanghai"
-        }
-      ]
+          label: "Sju sjösjuka sjömän på skeppet Shanghai",
+        },
+      ],
     }}
-  />
+  />,
 ];
 
 export default exercises;

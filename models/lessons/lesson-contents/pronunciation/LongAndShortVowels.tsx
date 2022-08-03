@@ -2,7 +2,7 @@ import { Table, TableBody, TableCell, TableRow } from "@mui/material";
 import React from "react";
 import AudioButton from "../../../../components/AudioButton";
 import { IfMobile, IfDesktop } from "../../../../helpers/showBasedOnScreen";
-import Image from 'next/image';
+import Image from "next/image";
 
 const lessonChunks = [
   <div className="lesson-chunk">
@@ -121,7 +121,13 @@ const lessonChunks = [
       </li>
     </ul>
     <p>
-      <Image className="w3-image" src={"/images/ö.jpg"} alt="ö meme" height="534" width="424" />
+      <Image
+        className="w3-image"
+        src={"/images/ö.jpg"}
+        alt="ö meme"
+        height="534"
+        width="424"
+      />
     </p>
   </div>,
   <div className="lesson-chunk">
@@ -255,7 +261,7 @@ const lessonChunks = [
       also find channels on Youtube with subtitles in Swedish, but the quality
       may vary.
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

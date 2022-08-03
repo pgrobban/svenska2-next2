@@ -1,48 +1,48 @@
 import { Bite } from "./types";
-import AboutLanguageBitesChunks from './lessons/AboutBites';
-import UnderstandingJuChunks from './lessons/bites/UnderstandingJu';
-import UnderstandingNämligenChunks from './lessons/bites/UnderstandingNämligen';
-import UnderstandingManChunks from './lessons/bites/UnderstandingMan';
-import UnderstandingVälChunks from './lessons/bites/UnderstandingVäl';
-import WhyMenarIsSometimesWrongChunks from './lessons/bites/TheTrueMeaningOfMena';
+import AboutLanguageBitesChunks from "./lessons/AboutBites";
+import UnderstandingJuChunks from "./lessons/bites/UnderstandingJu";
+import UnderstandingNämligenChunks from "./lessons/bites/UnderstandingNämligen";
+import UnderstandingManChunks from "./lessons/bites/UnderstandingMan";
+import UnderstandingVälChunks from "./lessons/bites/UnderstandingVäl";
+import WhyMenarIsSometimesWrongChunks from "./lessons/bites/TheTrueMeaningOfMena";
 import { sortBy } from "lodash";
 
 const bites: Bite[] = [
   {
-    name: 'About Language Bites',
-    urlName: 'about-bites',
+    name: "About Language Bites",
+    urlName: "about-bites",
     chunks: AboutLanguageBitesChunks,
-    exercises: []
+    exercises: [],
   },
   {
     name: 'The true meaning of "mena"',
-    urlName: 'menar',
+    urlName: "menar",
     chunks: WhyMenarIsSometimesWrongChunks,
-    exercises: []
+    exercises: [],
   },
   {
     name: 'Understanding "ju"',
-    urlName: 'understanding-ju',
+    urlName: "understanding-ju",
     chunks: UnderstandingJuChunks,
-    exercises: []
+    exercises: [],
   },
   {
     name: 'Understanding "väl"',
-    urlName: 'understanding-väl',
+    urlName: "understanding-väl",
     chunks: UnderstandingVälChunks,
-    exercises: []
+    exercises: [],
   },
   {
     name: 'Understanding "nämligen"',
-    urlName: 'understanding-nämligen',
+    urlName: "understanding-nämligen",
     chunks: UnderstandingNämligenChunks,
-    exercises: []
+    exercises: [],
   },
   {
     name: 'Understanding "man"',
-    urlName: 'understanding-man',
+    urlName: "understanding-man",
     chunks: UnderstandingManChunks,
-    exercises: []
+    exercises: [],
   },
   /*{
     name: '"Prata" or "tala"?',
@@ -76,4 +76,4 @@ const bites: Bite[] = [
   }*/
 ];
 
-export default sortBy(bites, 'name');
+export default sortBy(bites, "name");

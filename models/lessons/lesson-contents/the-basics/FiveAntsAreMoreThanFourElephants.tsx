@@ -1,7 +1,7 @@
 import React from "react";
 import {
   fiveAntsAreMoreThanFourElephantsWords,
-  fiveAntsAreMoreThanFourElephantsAdditionalWords
+  fiveAntsAreMoreThanFourElephantsAdditionalWords,
 } from "../../word-lists/FiveAntsAreMoreThanFourElephants";
 import WordList from "../../../../components/WordList";
 
@@ -166,7 +166,7 @@ const lessonChunks = [
         in Sweden). Reruns of the show frequently air on TV.
       </p>
     </div>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

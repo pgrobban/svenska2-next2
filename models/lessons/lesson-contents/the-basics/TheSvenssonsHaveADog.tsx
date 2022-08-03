@@ -2,7 +2,7 @@ import React from "react";
 import AudioButton from "../../../../components/AudioButton";
 import {
   mainWords as theSvenssonsHaveADogWords,
-  additionalWords as theSvenssonsHaveADogAdditionalWords
+  additionalWords as theSvenssonsHaveADogAdditionalWords,
 } from "../../word-lists/TheSvenssonsHaveADog";
 import { Table, TableBody, TableCell, TableRow } from "@mui/material";
 import WordList from "../../../../components/WordList";
@@ -210,7 +210,7 @@ const lessonChunks = [
       Note the spelling difference between the words <i>och</i> and <i>också</i>
       .
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

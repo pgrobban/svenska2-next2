@@ -18,7 +18,7 @@ const WhichLetter: React.FunctionComponent<WhichLetterProps> = (
     requiredCorrectAnswersInARow,
     letterChoices,
     instructions,
-    onMarkAsCompleted
+    onMarkAsCompleted,
   } = props;
 
   const [correctAnswersInARow, setCorrectAnswersInARow] = useState(0);
@@ -50,7 +50,11 @@ const WhichLetter: React.FunctionComponent<WhichLetterProps> = (
 
       <div className="centered w3-padding">
         Which letter is this:{" "}
-        <AudioButton fileName={`lessons/the-alphabet/${currentLetter.toLowerCase()}${isVowel(currentLetter) ? '-long' : ''}.mp3`} />
+        <AudioButton
+          fileName={`lessons/the-alphabet/${currentLetter.toLowerCase()}${
+            isVowel(currentLetter) ? "-long" : ""
+          }.mp3`}
+        />
       </div>
       <div className="centered">
         {map(letterChoices, (letter: string) => (
@@ -76,7 +80,7 @@ const WhichLetter: React.FunctionComponent<WhichLetterProps> = (
 };
 
 WhichLetter.defaultProps = {
-  requiredCorrectAnswersInARow: 10
+  requiredCorrectAnswersInARow: 10,
 };
 
 export default WhichLetter;

@@ -1,6 +1,6 @@
-import React from 'react';
-import { 
-  ArrowLeft as ArrowLeftIcon, 
+import React from "react";
+import {
+  ArrowLeft as ArrowLeftIcon,
   ArrowRight as ArrowRightIcon,
   Help as HelpIcon,
   VolumeUp as SoundIcon,
@@ -14,9 +14,9 @@ import {
   ExpandLess as ExpandLessIcon,
   Close as CloseIcon,
   InfoOutlined as InfoIcon,
-  Warning as WarningIcon
-} from '@mui/icons-material';
-import Image from 'next/image';
+  Warning as WarningIcon,
+} from "@mui/icons-material";
+import Image from "next/image";
 // import FactCheckIcon from '@material-ui/icons/FactCheck';
 
 const icons = {
@@ -35,16 +35,18 @@ const icons = {
   warning: <WarningIcon />,
   // svg icons
   facebook: <Image alt="" width={24} height={24} src="/images/facebook.svg" />,
-  instagram: <Image alt="" width={24} height={24} src="/images/instagram.svg" />,
+  instagram: (
+    <Image alt="" width={24} height={24} src="/images/instagram.svg" />
+  ),
   arrowRight: <ArrowRightIcon />,
-  arrowLeft: <ArrowLeftIcon />
+  arrowLeft: <ArrowLeftIcon />,
 };
 
 interface Props {
   type: keyof typeof icons;
   className?: string;
   color?: string;
-  size?: 's' | 'm' | 'l' | 'xl';
+  size?: "s" | "m" | "l" | "xl";
   style?: object;
 }
 
@@ -52,24 +54,21 @@ const sizes = {
   s: 12,
   m: 24,
   l: 36,
-  xl: 50
+  xl: 50,
 };
 
 const Icon: React.FC<Props> = (props) => {
   const { type, color, className, size } = props;
-  const resolvedSize = sizes[size || 'm'];
+  const resolvedSize = sizes[size || "m"];
 
-  return React.cloneElement(
-    icons[type],
-    {
-      style: {
-        color,
-        fontSize: resolvedSize,
-        width: resolvedSize
-      },
-      className
-    }
-  );
-}
+  return React.cloneElement(icons[type], {
+    style: {
+      color,
+      fontSize: resolvedSize,
+      width: resolvedSize,
+    },
+    className,
+  });
+};
 
 export default Icon;

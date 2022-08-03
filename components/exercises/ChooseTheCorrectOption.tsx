@@ -5,7 +5,7 @@ import {
   generateRandomWords,
   getBorderColorByMark,
   getEmptyStringsArray,
-  getNullArray
+  getNullArray,
 } from "../../helpers/utils";
 import { CorrectIncorrectMark, ExerciseProps } from "../../models/types";
 
@@ -32,9 +32,8 @@ const ChooseTheCorrectOption: React.FC<ChooseTheCorrectOptionProps> = (
   const { onMarkAsCompleted, sentences, choices, instructions } = props;
 
   const randomSentences = generateRandomWords(sentences, sentences.length);
-  const [sentencesInRandomOrder, setSentencesInRandomOrder] = useState(
-    randomSentences
-  );
+  const [sentencesInRandomOrder, setSentencesInRandomOrder] =
+    useState(randomSentences);
 
   const getChoicesInRandomOrder = (randomSentences: string[]) => {
     const choicesInRandomOrderInit = [] as string[][];
@@ -128,7 +127,7 @@ const ChooseTheCorrectOption: React.FC<ChooseTheCorrectOptionProps> = (
                       ? {
                           borderStyle: "solid",
                           borderWidth: 1,
-                          borderColor: getBorderColorByMark(answerMarks[index])
+                          borderColor: getBorderColorByMark(answerMarks[index]),
                         }
                       : {}
                   }

@@ -2,10 +2,10 @@ import React from "react";
 import { Table, TableBody, TableCell, TableRow } from "@mui/material";
 import {
   atThePizzeriaWords,
-  atThePizzeriaAdditionalWords
+  atThePizzeriaAdditionalWords,
 } from "../../word-lists/AtThePizzeria";
 import WordList from "../../../../components/WordList";
-import Image from 'next/image';
+import Image from "next/image";
 
 const lessonChunks = [
   <div className="lesson-chunk">
@@ -278,7 +278,7 @@ const lessonChunks = [
         judge a pizzeria solely by the taste of their kebab!
       </p>
     </div>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

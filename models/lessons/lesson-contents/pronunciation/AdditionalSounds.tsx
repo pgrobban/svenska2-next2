@@ -180,8 +180,9 @@ const lessonChunks = [
     </p>
 
     <p>
-      Because J is soft in Swedish, and we have no equivalent to the English hard /dʒ/ in
-      words like Jack, some Swedes resort to pronouncing loan words with a soft J instead.
+      Because J is soft in Swedish, and we have no equivalent to the English
+      hard /dʒ/ in words like Jack, some Swedes resort to pronouncing loan words
+      with a soft J instead.
     </p>
   </div>,
   <div className="lesson-chunk">
@@ -371,7 +372,7 @@ const lessonChunks = [
       We will get more into false friends as you will learn vocabulary in the
       following courses.
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

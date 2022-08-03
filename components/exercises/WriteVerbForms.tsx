@@ -4,7 +4,7 @@ import {
   getEmptyStringsArrayWithFirstValueSet,
   getNullArray,
   getBorderColorByMark,
-  normalizeInputs
+  normalizeInputs,
 } from "../../helpers/utils";
 import { CorrectIncorrectMark, ExerciseProps } from "../../models/types";
 
@@ -19,7 +19,7 @@ const WriteVerbForms: React.FunctionComponent<WriteVerbFormsProps> = (
   const {
     wordsInDictionaryFormWithMeaning,
     wordsInPresentTense,
-    onMarkAsCompleted
+    onMarkAsCompleted,
   } = props;
   const [inputs, setInputs] = useState(
     getEmptyStringsArrayWithFirstValueSet(
@@ -90,9 +90,9 @@ const WriteVerbForms: React.FunctionComponent<WriteVerbFormsProps> = (
       <h5>Instructions &amp; passing criteria</h5>
 
       <p>
-        Below you will find a list of verbs in their base forms. Write the verbs in the
-        present tense in the corresponding input boxes. You need all correct
-        answers to mark the exercise as passed.
+        Below you will find a list of verbs in their base forms. Write the verbs
+        in the present tense in the corresponding input boxes. You need all
+        correct answers to mark the exercise as passed.
       </p>
 
       <div className="w3-panel">
@@ -111,7 +111,7 @@ const WriteVerbForms: React.FunctionComponent<WriteVerbFormsProps> = (
                       ? {
                           borderStyle: "solid",
                           borderWidth: 1,
-                          borderColor: getBorderColorByMark(answerMarks[index])
+                          borderColor: getBorderColorByMark(answerMarks[index]),
                         }
                       : {}
                   }

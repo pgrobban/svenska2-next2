@@ -1,14 +1,14 @@
 import React from "react";
 import {
   whosOnFirstWords,
-  whosOnFirstAdditionalWords
+  whosOnFirstAdditionalWords,
 } from "../../word-lists/WhosOnFirst";
 import {
   Table,
   TableBody,
   TableCell,
   TableHead,
-  TableRow
+  TableRow,
 } from "@mui/material";
 import AudioButton from "../../../../components/AudioButton";
 import WordList from "../../../../components/WordList";
@@ -517,7 +517,7 @@ const lessonChunks = [
       considered slang and inappropriate to be used in formal contexts, but it
       has been recorded in use since 1678!
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

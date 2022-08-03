@@ -6,32 +6,32 @@ export const sevenDaysWithoutASwedishLessonMakesOneWeekWords: Word[] = [
     swedish: "se",
     audioFileName: "se.mp3",
     english: "see, here: watch",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "(en) film",
     audioFileName: "film.mp3",
     english: "film, movie",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "(en) måndag",
     audioFileName: "måndag.mp3",
     english: "Monday",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "tyvärr",
     audioFileName: "tyvärr.mp3",
     english: "sadly, unfortunately",
-    wordClass: WordClass.Adverb
+    wordClass: WordClass.Adverb,
   },
   {
     swedish: "då (I)",
     audioFileName: "då.mp3",
     english: "how about...?",
     wordClass: WordClass.Adverb,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "(ett) matteprov",
@@ -48,40 +48,40 @@ export const sevenDaysWithoutASwedishLessonMakesOneWeekWords: Word[] = [
           <>
             This is a slong short form of <i>matematik</i>.
           </>
-        )
+        ),
       },
       {
         swedish: "(ett) prov",
         audioFileName: "prov.mp3",
         english: "test",
-        wordClass: WordClass.Noun
-      }
-    ]
+        wordClass: WordClass.Noun,
+      },
+    ],
   },
   {
     swedish: "(en) tisdag",
     audioFileName: "tisdag.mp3",
     english: "Tuesday",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "men",
     audioFileName: "men.mp3",
     english: "but",
-    wordClass: WordClass.Conjunction
+    wordClass: WordClass.Conjunction,
   },
   {
     swedish: "(en) onsdag",
     audioFileName: "onsdag.mp3",
     english: "Wednesday",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "går bra",
     audioFileName: "går bra.mp3",
     english: "to be okay/fine",
     wordClass: WordClass.Verb,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "pianolektioner",
@@ -94,16 +94,16 @@ export const sevenDaysWithoutASwedishLessonMakesOneWeekWords: Word[] = [
         swedish: "(ett) piano",
         audioFileName: "piano.mp3",
         english: "piano",
-        wordClass: WordClass.Noun
+        wordClass: WordClass.Noun,
       },
       {
         swedish: "(en) lektion",
         audioFileName: "lektion.mp3",
         payAttentionToPronunciation: "[leksjon]",
         english: "lesson",
-        wordClass: WordClass.Noun
-      }
-    ]
+        wordClass: WordClass.Noun,
+      },
+    ],
   },
   {
     swedish: "onsdagar",
@@ -114,31 +114,31 @@ export const sevenDaysWithoutASwedishLessonMakesOneWeekWords: Word[] = [
       <>
         This is the plural form of <i>onsdag</i>.
       </>
-    )
+    ),
   },
   {
     swedish: "(en) torsdag",
     audioFileName: "torsdag.mp3",
     english: "Thursday",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "eller",
     audioFileName: "eller.mp3",
     english: "or",
-    wordClass: WordClass.Conjunction
+    wordClass: WordClass.Conjunction,
   },
   {
     swedish: "(en) fredag",
     audioFileName: "fredag.mp3",
     english: "Friday",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "(en) suck",
     audioFileName: "suck.mp3",
     english: "Wednesday",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "helgen",
@@ -146,7 +146,7 @@ export const sevenDaysWithoutASwedishLessonMakesOneWeekWords: Word[] = [
     audioFileName: "helgen.mp3",
     dictionaryForm: "(en) helg",
     english: "weekend",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "funkar",
@@ -168,20 +168,20 @@ export const sevenDaysWithoutASwedishLessonMakesOneWeekWords: Word[] = [
           "it works better in his schedule".
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "för",
     audioFileName: "för.mp3",
     english: "weekend",
-    wordClass: WordClass.Adverb
+    wordClass: WordClass.Adverb,
   },
   {
     swedish: "bättre",
     audioFileName: "bättre.mp3",
     english: "better",
     dictionaryForm: "bra",
-    wordClass: WordClass.Adjective
+    wordClass: WordClass.Adjective,
   },
   {
     swedish: "ska",
@@ -193,26 +193,26 @@ export const sevenDaysWithoutASwedishLessonMakesOneWeekWords: Word[] = [
         The auxiliary verb <i>ska</i> expresses future tense, but it can also be
         interpreted as "let's" in English.
       </>
-    )
+    ),
   },
   {
     swedish: "säga",
     payAttentionToPronunciation: "[säja]",
     audioFileName: "säga.mp3",
     english: "say",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "(en) lördag",
     audioFileName: "lördag.mp3",
     english: "Saturday",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "(en) söndag",
     audioFileName: "torsdag.mp3",
     english: "Thursday",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "ses",
@@ -220,14 +220,15 @@ export const sevenDaysWithoutASwedishLessonMakesOneWeekWords: Word[] = [
     audioFileName: "ses.mp3",
     english: "see each other",
     wordClass: WordClass.Verb,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "då (II)",
     audioFileName: "då.mp3",
     english: "then",
-    wordClass: WordClass.Adverb
-  }
+    wordClass: WordClass.Adverb,
+  },
 ];
 
-export const SevenDaysWithoutASwedishLessonMakesOneWeekAdditionalWords: Word[] = [];
+export const SevenDaysWithoutASwedishLessonMakesOneWeekAdditionalWords: Word[] =
+  [];

@@ -2,7 +2,7 @@ import React from "react";
 import WordList from "../../../../components/WordList";
 import {
   factsAboutSwedenWords,
-  factsAboutSwedenAdditionalWords
+  factsAboutSwedenAdditionalWords,
 } from "../../word-lists/FactsAboutSweden";
 
 const lessonChunks = [
@@ -141,7 +141,7 @@ const lessonChunks = [
       Combine them with <i>nord-</i> and <i>syd-</i>, e.g.{" "}
       <i>sydöstra England</i>.
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

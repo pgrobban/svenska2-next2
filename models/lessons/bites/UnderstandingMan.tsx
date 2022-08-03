@@ -155,7 +155,7 @@ const lessonChunks = [
       på fioler.
       <br />= Horse mane can be used to make violin strings, for instance.
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

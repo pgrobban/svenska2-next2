@@ -95,10 +95,10 @@ export default [
         I suspect that this comes from the translated version of the children's
         song lyrics "The more we are together, the happier we'll be", which in
         Swedish is sung as <i>Ju mer vi är tillsammans, ju gladare vi bli</i>.
-        The second <i>ju</i> here should be a <i>desto</i>, but because <i>desto</i> has two
-        syllables, it doesn't fit the melody quite right. Furthermore, the {" "}
-        <i>vi bli</i> part is outdated grammar so in modern Swedish it should be{" "}
-        <i>blir vi</i>.
+        The second <i>ju</i> here should be a <i>desto</i>, but because{" "}
+        <i>desto</i> has two syllables, it doesn't fit the melody quite right.
+        Furthermore, the <i>vi bli</i> part is outdated grammar so in modern
+        Swedish it should be <i>blir vi</i>.
       </p>
     </WarningBlock>
   </div>,
@@ -196,5 +196,5 @@ export default [
       However, adding the <i>ju</i>
       gives the sentences that extra emotional "kick".
     </p>
-  </div>
+  </div>,
 ];

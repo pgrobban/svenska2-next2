@@ -45,7 +45,7 @@ const exercises = [
     exerciseComponentProps={{
       requiredCorrectAnswersInARow: 10,
       letterChoices: VOWELS.split(""),
-      instructions: whichLetterVowelInstructions
+      instructions: whichLetterVowelInstructions,
     }}
   />,
   <Exercise
@@ -57,7 +57,7 @@ const exercises = [
     exerciseComponentProps={{
       requiredCorrectAnswersInARow: 15,
       letterChoices: CONSONANTS.split(""),
-      instructions: whichLetterConsonantInstructions
+      instructions: whichLetterConsonantInstructions,
     }}
   />,
   <Exercise
@@ -81,11 +81,11 @@ const exercises = [
         "Ingmar",
         "Anders",
         "Göran",
-        "Märta"
+        "Märta",
       ],
-      numberOfWordsToSample: 8
+      numberOfWordsToSample: 8,
     }}
-  />
+  />,
 ];
 
 export default exercises;

@@ -15,7 +15,7 @@ export const meMyselfAndIPart2Words: Word[] = [
     payAttentionToPronunciation: "[sej]",
     english: "-self, -selves",
     wordClass: WordClass.Pronoun,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "trött",
@@ -34,15 +34,15 @@ export const meMyselfAndIPart2Words: Word[] = [
     swedish: "(en) kostym",
     audioFileName: "kostym.mp3",
     english: "suit",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "har på sig",
     audioFileName: "har på sig.mp3",
     dictionaryForm: "ha på sig",
     english: "wear",
-    wordClass: WordClass.Verb
-  }
+    wordClass: WordClass.Verb,
+  },
 ];
 
 export const meMyselfAndIPart2AdditionalWords: Word[] = [];

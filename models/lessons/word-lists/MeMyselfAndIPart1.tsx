@@ -28,7 +28,7 @@ export const meMyselfAndIPart1Words: Word[] = [
 
         <p>Please note the pronunciation of mig.</p>
       </>
-    )
+    ),
   },
   {
     swedish: "mig",
@@ -36,7 +36,7 @@ export const meMyselfAndIPart1Words: Word[] = [
     payAttentionToPronunciation: "[mej]",
     english: "me, myself",
     wordClass: WordClass.Pronoun,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "dig",
@@ -44,72 +44,72 @@ export const meMyselfAndIPart1Words: Word[] = [
     payAttentionToPronunciation: "[dej]",
     english: "you (objective form), yourself",
     wordClass: WordClass.Pronoun,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "frisören",
     audioFileName: "frisören.mp3",
     dictionaryForm: "frisör",
     english: "the (male) hairdresser/barber",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "rakar",
     audioFileName: "rakar.mp3",
     dictionaryForm: "raka",
     english: "shave",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "honom",
     audioFileName: "honom.mp3",
     english: "him",
-    wordClass: WordClass.Pronoun
+    wordClass: WordClass.Pronoun,
   },
   {
     swedish: "han",
     audioFileName: "han.mp3",
     english: "he",
-    wordClass: WordClass.Pronoun
+    wordClass: WordClass.Pronoun,
   },
   {
     swedish: "frisörskan",
     audioFileName: "frisörskan.mp3",
     dictionaryForm: "frisörska",
     english: "the (female) hairdresser/barber",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "klipper",
     audioFileName: "klipper.mp3",
     dictionaryForm: "klippa",
     english: "cut (with scissors)",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "henne",
     audioFileName: "henne.mp3",
     english: "her",
-    wordClass: WordClass.Pronoun
+    wordClass: WordClass.Pronoun,
   },
   {
     swedish: "hon",
     audioFileName: "hon.mp3",
     english: "she",
-    wordClass: WordClass.Pronoun
+    wordClass: WordClass.Pronoun,
   },
   {
     swedish: "kramar",
     dictionaryForm: "krama",
     audioFileName: "kramar.mp3",
     english: "hug",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "varandra",
     audioFileName: "varandra.mp3",
     english: "each other",
-    wordClass: WordClass.Pronoun
+    wordClass: WordClass.Pronoun,
   },
   {
     swedish: "tårta",
@@ -117,20 +117,20 @@ export const meMyselfAndIPart1Words: Word[] = [
     english: "cake",
     wordClass: WordClass.Noun,
     moreInfoComponent:
-      "Pronunciation can be slurred to [tå:ta] in some dialects."
+      "Pronunciation can be slurred to [tå:ta] in some dialects.",
   },
   {
     swedish: "ger",
     audioFileName: "ger.mp3",
     dictionaryForm: "ge",
     english: "give",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "present",
     audioFileName: "present.mp3",
     english: "present, gift",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "känner",
@@ -143,8 +143,8 @@ export const meMyselfAndIPart1Words: Word[] = [
         <span>känna</span> is another verb which changes meaning depending on
         what follows. More in the next lesson.
       </>
-    )
-  }
+    ),
+  },
 ];
 
 export const meMyselfAndIPart1AdditionalWords: Word[] = [];

@@ -11,15 +11,15 @@ export interface GuessCorrectPronunciationProps extends ExerciseProps {
   instructions: ReactElement;
 }
 
-const GuessCorrectPronunciation: React.FunctionComponent<GuessCorrectPronunciationProps> = (
-  props: GuessCorrectPronunciationProps
-) => {
+const GuessCorrectPronunciation: React.FunctionComponent<
+  GuessCorrectPronunciationProps
+> = (props: GuessCorrectPronunciationProps) => {
   const {
     onMarkAsCompleted,
     requiredCorrectAnswersInARow,
     wordChoices,
     correctAnswers,
-    instructions
+    instructions,
   } = props;
 
   const [correctAnswersInRow, setCorrectAnswersInRow] = useState(0);
@@ -27,7 +27,7 @@ const GuessCorrectPronunciation: React.FunctionComponent<GuessCorrectPronunciati
   const [currentWord, setCurrentWord] = useState(randomWord);
 
   const makeGuess = (guess: 1 | 2) => {
-    const currentWordIndex = wordChoices.indexOf(currentWord || '');
+    const currentWordIndex = wordChoices.indexOf(currentWord || "");
     if (correctAnswers[currentWordIndex] === guess) {
       const newCorrectAnswersInRow = correctAnswersInRow + 1;
       setCorrectAnswersInRow(newCorrectAnswersInRow);

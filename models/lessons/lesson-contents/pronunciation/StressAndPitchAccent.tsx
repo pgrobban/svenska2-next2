@@ -2,7 +2,7 @@ import { Table, TableBody, TableCell, TableRow } from "@mui/material";
 import React from "react";
 import AudioButton from "../../../../components/AudioButton";
 import { IfMobile, IfDesktop } from "../../../../helpers/showBasedOnScreen";
-import Image from 'next/image';
+import Image from "next/image";
 
 const lessonChunks = [
   <div className="lesson-chunk">
@@ -105,7 +105,7 @@ const lessonChunks = [
 
     <Image
       className="w3-image"
-      src={'/images/accents.png'}
+      src={"/images/accents.png"}
       alt="Pitch accent"
       title="Pitch accent"
       height="375"
@@ -140,7 +140,7 @@ const lessonChunks = [
 
     <Image
       className="w3-image blackboard"
-      src={'/images/pitch.png'}
+      src={"/images/pitch.png"}
       alt="Pitch in the word Drottninggatan"
       title="Pitch in the word Drottninggatan"
       height="375"
@@ -160,7 +160,7 @@ const lessonChunks = [
 
     <Image
       className="w3-image blackboard"
-      src={'/images/pitch2.png'}
+      src={"/images/pitch2.png"}
       alt={`Pitch in the word sentence "Jag bor i Stockholm."`}
       title={`Pitch in the word sentence "Jag bor i Stockholm."`}
       height="375"
@@ -179,7 +179,7 @@ const lessonChunks = [
 
     <Image
       className="w3-image blackboard"
-      src={'/images/pitch3.png'}
+      src={"/images/pitch3.png"}
       alt={`Pitch in the word sentence "Bor han i Stockholm?"`}
       title={`Pitch in the word sentence "Bor han i Stockholm?"`}
       height="375"
@@ -282,7 +282,7 @@ const lessonChunks = [
       will put up some sections about different dialects in the Language Bites
       section.
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

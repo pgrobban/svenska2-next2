@@ -1,7 +1,6 @@
 import Layout from "../../components/layout/Layout";
 import LessonContentView from "../../components/LessonContentView";
-import beforeYouStartLessonChunks from '../../models/lessons/BeforeYouStart';
-
+import beforeYouStartLessonChunks from "../../models/lessons/BeforeYouStart";
 
 const BeforeYouStartView: React.FC = () => (
   <Layout

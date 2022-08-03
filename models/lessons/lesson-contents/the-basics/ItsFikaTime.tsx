@@ -3,7 +3,7 @@ import { Table, TableBody, TableCell, TableRow } from "@mui/material";
 import WordList from "../../../../components/WordList";
 import {
   itsFikaTimeWords,
-  itsFikaTimeAdditionalWords
+  itsFikaTimeAdditionalWords,
 } from "../../word-lists/ItsFikaTime";
 import AudioButton from "../../../../components/AudioButton";
 
@@ -278,7 +278,7 @@ const lessonChunks = [
         20th century.
       </p>
     </div>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

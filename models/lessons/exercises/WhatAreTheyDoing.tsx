@@ -2,7 +2,7 @@ import React from "react";
 import ChooseTheCorrectOption from "../../../components/exercises/ChooseTheCorrectOption";
 import WrittenWordTest, {
   swedishToEnglishDefaultInstructions,
-  englishToSwedishDefaultInstructions
+  englishToSwedishDefaultInstructions,
 } from "../../../components/exercises/WrittenWordTest";
 import WriteVerbForms from "../../../components/exercises/WriteVerbForms";
 import Exercise from "../../../components/Exercise";
@@ -33,7 +33,7 @@ const exercises = [
         "datorspel",
         "tittar",
         "på",
-        "tränar"
+        "tränar",
       ],
       meanings: [
         "(child's) play",
@@ -52,11 +52,11 @@ const exercises = [
         "computer game",
         "watch",
         "on/at",
-        "exercise"
+        "exercise",
       ],
       numberOfWordsToSample: 14,
       requiredCorrectAnswers: 12,
-      instructions: swedishToEnglishDefaultInstructions
+      instructions: swedishToEnglishDefaultInstructions,
     }}
   />,
   <Exercise
@@ -83,7 +83,7 @@ const exercises = [
         "on/at",
         "swim",
         "sleep",
-        "exercise"
+        "exercise",
       ],
       meanings: [
         "leker",
@@ -102,11 +102,11 @@ const exercises = [
         "på",
         "svimmar",
         "sover",
-        "tränar"
+        "tränar",
       ],
       numberOfWordsToSample: 14,
       requiredCorrectAnswers: 12,
-      instructions: englishToSwedishDefaultInstructions
+      instructions: englishToSwedishDefaultInstructions,
     }}
   />,
   <Exercise
@@ -125,7 +125,7 @@ const exercises = [
         "Lovisa __ en tidning.",
         "Martin __ buss (a bus).",
         "Jag __ på Sopranos.",
-        "Jack __ lastbil (a truck)."
+        "Jack __ lastbil (a truck).",
       ],
       choices: [
         ["skriver", "spelar"],
@@ -136,8 +136,8 @@ const exercises = [
         ["läser", "skriver"],
         ["åker", "äter"],
         ["tittar", "skriver", "läser"],
-        ["kör", "bakar"]
-      ]
+        ["kör", "bakar"],
+      ],
     }}
   />,
   <Exercise
@@ -157,7 +157,7 @@ const exercises = [
         "sova (to sleep)",
         "springa (to run)",
         "bli (to become)",
-        "göra (to do, make)"
+        "göra (to do, make)",
       ],
       wordsInPresentTense: [
         "leker",
@@ -169,11 +169,11 @@ const exercises = [
         "sover",
         "springer",
         "blir",
-        "gör"
-      ]
+        "gör",
+      ],
     }}
     saolRequired
-  />
+  />,
 ];
 
 export default exercises;

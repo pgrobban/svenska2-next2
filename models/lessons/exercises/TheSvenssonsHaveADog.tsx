@@ -4,7 +4,7 @@ import ChooseTheCorrectOption from "../../../components/exercises/ChooseTheCorre
 import WriteSentences from "../../../components/exercises/WriteSentences";
 import WrittenWordTest, {
   swedishToEnglishDefaultInstructions,
-  englishToSwedishDefaultInstructions
+  englishToSwedishDefaultInstructions,
 } from "../../../components/exercises/WrittenWordTest";
 import { ExerciseProps } from "../../types";
 
@@ -29,7 +29,7 @@ const exercises = [
         "grön",
         "gul",
         "liten",
-        "söt"
+        "söt",
       ],
       meanings: [
         "dog",
@@ -44,11 +44,11 @@ const exercises = [
         "green",
         "yellow",
         "small",
-        "cute, sweet"
+        "cute, sweet",
       ],
       numberOfWordsToSample: 12,
       requiredCorrectAnswers: 10,
-      instructions: swedishToEnglishDefaultInstructions
+      instructions: swedishToEnglishDefaultInstructions,
     }}
   />,
   <Exercise
@@ -71,7 +71,7 @@ const exercises = [
         "green",
         "yellow",
         "small",
-        "cute, sweet"
+        "cute, sweet",
       ],
       meanings: [
         "hund",
@@ -86,11 +86,11 @@ const exercises = [
         "grön",
         "gul",
         "liten",
-        "söt"
+        "söt",
       ],
       numberOfWordsToSample: 12,
       requiredCorrectAnswers: 10,
-      instructions: englishToSwedishDefaultInstructions
+      instructions: englishToSwedishDefaultInstructions,
     }}
   />,
   <Exercise
@@ -123,7 +123,7 @@ const exercises = [
         "Ferrari tillverkar (manufactures) __ bilar (cars).",
         "De har en __ bil.",
         "De bor i ett __ hus.",
-        "De har två __ barn."
+        "De har två __ barn.",
       ],
       choices: [
         ["stor", "stort", "stora"],
@@ -139,8 +139,8 @@ const exercises = [
         ["röda", "röd", "rött"],
         ["liten", "litet", "små"],
         ["litet", "liten", "små"],
-        ["små", "liten", "litet"]
-      ]
+        ["små", "liten", "litet"],
+      ],
     }}
     saolRequired
   />,
@@ -160,7 +160,7 @@ const exercises = [
         "I have a small car.",
         "We have two small children.",
         "They have a blue car.",
-        "We have two blue cars."
+        "We have two blue cars.",
       ],
       answers: [
         "Anna har en stor hund.",
@@ -171,10 +171,10 @@ const exercises = [
         "Jag har en liten bil.",
         "Vi har två små barn.",
         "De har en blå bil.",
-        "Vi har två blåa bilar."
-      ]
+        "Vi har två blåa bilar.",
+      ],
     }}
-  />
+  />,
 ];
 
 export default exercises;

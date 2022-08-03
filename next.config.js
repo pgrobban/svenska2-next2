@@ -5,14 +5,14 @@ const nextConfig = {
     return [
       {
         source: "/lessons",
-        destination: "/lesson/before-you-start"
+        destination: "/lesson/before-you-start",
       },
       {
         source: "/bites",
-        destination: "/bite/about-bites"
-      }
+        destination: "/bite/about-bites",
+      },
     ];
-  }
-}
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

@@ -3,10 +3,10 @@ import { Table, TableBody, TableCell, TableRow } from "@mui/material";
 import WordList from "../../../../components/WordList";
 import {
   itsAlwaysRainingInMidsummerWords,
-  itsAlwaysRainingInMidsummerAdditionalWords
+  itsAlwaysRainingInMidsummerAdditionalWords,
 } from "../../word-lists/ItsAlwaysRainingInMidsummer";
 import AudioButton from "../../../../components/AudioButton";
-import Image from 'next/image';
+import Image from "next/image";
 
 const lessonChunks = [
   <div className="lesson-chunk">
@@ -32,7 +32,12 @@ const lessonChunks = [
       <TableBody>
         <TableRow>
           <TableCell>
-            <Image height={200} width={200} alt="play" src="/images/sunny.jpg" />
+            <Image
+              height={200}
+              width={200}
+              alt="play"
+              src="/images/sunny.jpg"
+            />
             <p>
               Det är soligt.
               <br />= Vädret är fint.
@@ -46,7 +51,8 @@ const lessonChunks = [
         <TableRow>
           <TableCell>
             <Image
-              height={200} width={200}
+              height={200}
+              width={200}
               alt="play"
               src="/images/halvklart.jpg"
             />
@@ -63,7 +69,8 @@ const lessonChunks = [
         <TableRow>
           <TableCell>
             <Image
-              height={200} width={200}
+              height={200}
+              width={200}
               alt="play"
               src="/images/overcast.jpg"
             />
@@ -89,7 +96,8 @@ const lessonChunks = [
         <TableRow>
           <TableCell>
             <Image
-              height={200} width={200}
+              height={200}
+              width={200}
               alt="play"
               src="/images/lightning.jpg"
             />
@@ -129,8 +137,10 @@ const lessonChunks = [
         <TableRow>
           <TableCell>
             <Image height={200} width={200} alt="fog" src="/images/fog.jpg" />
-            <p>Det blåser.<br />
-            = Det är blåsigt.</p>
+            <p>
+              Det blåser.
+              <br />= Det är blåsigt.
+            </p>
           </TableCell>
           <TableCell>
             <AudioButton fileName="" />
@@ -202,7 +212,7 @@ const lessonChunks = [
       <br />
       Det är inte kall<strong>t</strong>.
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

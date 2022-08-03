@@ -212,7 +212,7 @@ const lessonChunks = [
       That is all for this lesson. The main takeaway is when you see a word with
       G or K in it, try to follow the rules above when you try to pronounce it.
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

@@ -16,11 +16,13 @@ enum Section {
   Lesson,
   Exercises,
   FeedbackAndQuestions,
-};
+}
 
 const LessonView: React.FC<Props> = ({ lesson }) => {
   const [viewingSection, setViewingSection] = useState(Section.Lesson);
-  useEffect(() => { setViewingSection(Section.Lesson) }, [lesson]);
+  useEffect(() => {
+    setViewingSection(Section.Lesson);
+  }, [lesson]);
 
   if (!lesson) {
     return (

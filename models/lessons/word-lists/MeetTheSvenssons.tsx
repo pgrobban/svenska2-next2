@@ -27,34 +27,34 @@ const words: Word[] = [
           <i>Hallå!</i> in this sutation is more like "Hey, you there!"
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "jag",
     audioFileName: "jag.mp3",
     english: "I",
-    wordClass: WordClass.Pronoun
+    wordClass: WordClass.Pronoun,
   },
   {
     swedish: "heter",
-    dictionaryForm: 'heta',
+    dictionaryForm: "heta",
     audioFileName: "heter.mp3",
     english: "to be named/called",
     wordClass: WordClass.Verb,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "Håkan",
     audioFileName: "håkan.mp3",
     english: "(a male name)",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "och",
     audioFileName: "och.mp3",
     payAttentionToPronunciation: "[ock]",
     english: "and",
-    wordClass: WordClass.Conjunction
+    wordClass: WordClass.Conjunction,
   },
   {
     swedish: "min",
@@ -64,11 +64,12 @@ const words: Word[] = [
     wordClass: WordClass.Noun,
     moreInfoComponent: (
       <p>
-        There are two words for personal pronouns in Swedish, depending on whether
-        the noun tha follows is an en-word, ett-word (see note on word <i>en</i>{" "}
-        below) or plural. We will take a closer look at this in another lesson.
+        There are two words for personal pronouns in Swedish, depending on
+        whether the noun tha follows is an en-word, ett-word (see note on word{" "}
+        <i>en</i> below) or plural. We will take a closer look at this in
+        another lesson.
       </p>
-    )
+    ),
   },
   {
     swedish: "fru",
@@ -92,32 +93,32 @@ const words: Word[] = [
           ago.
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "Lena",
     audioFileName: "lena.mp3",
     english: "(a female name)",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "vi",
     audioFileName: "vi.mp3",
     english: "we",
-    wordClass: WordClass.Pronoun
+    wordClass: WordClass.Pronoun,
   },
   {
     swedish: "har",
-    dictionaryForm: 'ha',
+    dictionaryForm: "ha",
     audioFileName: "har.mp3",
     english: "have",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "två",
     audioFileName: "två.mp3",
     english: "two",
-    wordClass: WordClass.Numeral
+    wordClass: WordClass.Numeral,
   },
   {
     swedish: "(ett) barn",
@@ -135,7 +136,7 @@ const words: Word[] = [
           of <i>en</i>.
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "en",
@@ -169,26 +170,26 @@ const words: Word[] = [
           don't think too much about this for now.
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "(en) son",
     audioFileName: "son.mp3",
     payAttentionToPronunciation: "[sån]",
     english: "son",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "Alfred",
     audioFileName: "alfred.mp3",
     english: "(a male name)",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "(en) dotter",
     audioFileName: "dotter.mp3",
     english: "daughter",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "Saga",
@@ -197,15 +198,15 @@ const words: Word[] = [
     wordClass: WordClass.Noun,
     moreInfoComponent: (
       <p>As a noun, (en) saga can also mean "story", "fairy tale".</p>
-    )
+    ),
   },
   {
     swedish: "är",
-    dictionaryForm: 'vara',
+    dictionaryForm: "vara",
     audioFileName: "är.mp3",
     english: "is/are/am",
     wordClass: WordClass.Verb,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "familjen",
@@ -223,26 +224,26 @@ const words: Word[] = [
           it's incorrect to say "Svensson familjen".
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "Svensson",
     audioFileName: "svensson.mp3",
     english: "(a surname)",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "bor",
     dictionaryForm: "bo",
     audioFileName: "bor.mp3",
     english: "living (somewhere)",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "i",
     audioFileName: "i.mp3",
     english: "in",
-    wordClass: WordClass.Preposition
+    wordClass: WordClass.Preposition,
   },
   {
     swedish: "Göteborg",
@@ -259,8 +260,8 @@ const words: Word[] = [
           contexts.
         </p>
       </>
-    )
-  }
+    ),
+  },
 ];
 
 export default words;

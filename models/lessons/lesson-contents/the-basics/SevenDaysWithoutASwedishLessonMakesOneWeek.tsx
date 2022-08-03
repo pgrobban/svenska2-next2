@@ -2,7 +2,7 @@ import React from "react";
 import AudioButton from "../../../../components/AudioButton";
 import {
   sevenDaysWithoutASwedishLessonMakesOneWeekWords,
-  SevenDaysWithoutASwedishLessonMakesOneWeekAdditionalWords
+  SevenDaysWithoutASwedishLessonMakesOneWeekAdditionalWords,
 } from "../../word-lists/SevenDaysWithoutASwedishLessonMakesOneWeek";
 import WordList from "../../../../components/WordList";
 import { Table, TableBody, TableCell, TableRow } from "@mui/material";
@@ -217,7 +217,7 @@ const lessonChunks = [
       definitely verbs that end with -s in their base forms or other forms such
       as passive voicing. You can always check with SAOL if you are unsure.
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

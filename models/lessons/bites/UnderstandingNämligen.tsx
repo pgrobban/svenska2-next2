@@ -151,5 +151,5 @@ export default [
       sentence using "because" in English, you have to indicate that it refers
       to the question being asked.
     </p>
-  </div>
+  </div>,
 ];

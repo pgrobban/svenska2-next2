@@ -13,7 +13,7 @@ export const itsFikaTimeWords: Word[] = [
         The <i>mig</i> is implied if there's no object, so Håkan is actually
         saying "Excuse me".
       </>
-    )
+    ),
   },
   {
     swedish: "klockan",
@@ -26,7 +26,7 @@ export const itsFikaTimeWords: Word[] = [
         The expression <i>Vad är klockan?</i> literally means "What's the
         clock?" but this is how we ask what's the time.
       </>
-    )
+    ),
   },
   {
     swedish: "mobilen (= mobiltelefonen)",
@@ -39,13 +39,15 @@ export const itsFikaTimeWords: Word[] = [
         This is the definite form of <i>mobil</i>.
       </>
     ),
-    subWords: [{
-      swedish: 'telefonen',
-      dictionaryForm: "(en) telefon",
-      audioFileName: "telefonen.mp3",
-      english: "phone",
-      wordClass: WordClass.Noun
-    }]
+    subWords: [
+      {
+        swedish: "telefonen",
+        dictionaryForm: "(en) telefon",
+        audioFileName: "telefonen.mp3",
+        english: "phone",
+        wordClass: WordClass.Noun,
+      },
+    ],
   },
   {
     swedish: "glömde",
@@ -57,7 +59,7 @@ export const itsFikaTimeWords: Word[] = [
       <>
         This is the past tense of <i>glömma</i>.
       </>
-    )
+    ),
   },
   {
     swedish: "hemma",
@@ -75,7 +77,7 @@ export const itsFikaTimeWords: Word[] = [
           In some cases, <i>hemma</i> can also refer to one's home country.
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "vad synd",
@@ -93,22 +95,22 @@ export const itsFikaTimeWords: Word[] = [
         swedish: "(en) synd",
         audioFileName: "synd.mp3",
         english: "sin",
-        wordClass: WordClass.Noun
-      }
-    ]
+        wordClass: WordClass.Noun,
+      },
+    ],
   },
   {
     swedish: "hon",
     audioFileName: "hon.mp3",
     english: "(when telling time) it",
     wordClass: WordClass.Pronoun,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "(en) kvart",
     audioFileName: "kvart.mp3",
     english: "quarter",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "över",
@@ -120,13 +122,13 @@ export const itsFikaTimeWords: Word[] = [
         The preposition <i>över</i> normally translates to "over", but in the
         context of time it's more correctly translated as "past".
       </>
-    )
+    ),
   },
   {
     swedish: "förresten",
     audioFileName: "förresten.mp3",
     english: "by the way",
-    wordClass: WordClass.Adverb
+    wordClass: WordClass.Adverb,
   },
   {
     swedish: "fyller år",
@@ -161,33 +163,33 @@ export const itsFikaTimeWords: Word[] = [
         swedish: "fyller",
         audioFileName: "fyller.mp3",
         wordClass: WordClass.Verb,
-        english: "fill"
+        english: "fill",
       },
       {
         swedish: "(ett) år",
         audioFileName: "år.mp3",
         wordClass: WordClass.Noun,
-        english: "year"
-      }
-    ]
+        english: "year",
+      },
+    ],
   },
   {
     swedish: "Ingvar",
     audioFileName: "ingvar.mp3",
     english: "(a male name)",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "idag, i dag",
     audioFileName: "idag.mp3",
     english: "today",
-    wordClass: WordClass.Adverb
+    wordClass: WordClass.Adverb,
   },
   {
     swedish: "när",
     audioFileName: "när.mp3",
     english: "when",
-    wordClass: WordClass.Adverb
+    wordClass: WordClass.Adverb,
   },
   {
     swedish: "fikat",
@@ -195,7 +197,7 @@ export const itsFikaTimeWords: Word[] = [
     audioFileName: "fikat.mp3",
     english: "fika",
     wordClass: WordClass.Noun,
-    moreInfoComponent: "See CN"
+    moreInfoComponent: "See CN",
   },
   {
     swedish: "halv",
@@ -217,19 +219,19 @@ export const itsFikaTimeWords: Word[] = [
           In other cases or when used as an adjective, use <i>halva</i>.
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "så",
     audioFileName: "så.mp3",
     english: "so",
-    wordClass: WordClass.Conjunction
+    wordClass: WordClass.Conjunction,
   },
   {
     swedish: "snart",
     audioFileName: "snart.mp3",
     english: "soon",
-    wordClass: WordClass.Adverb
+    wordClass: WordClass.Adverb,
   },
   {
     swedish: "dags",
@@ -241,14 +243,18 @@ export const itsFikaTimeWords: Word[] = [
         This is an abstract meaning of time is used in expressions like "it's
         time for you to grow up" or "it's time to take out the trash".
       </>
-    )
+    ),
   },
   {
     swedish: "hoppas",
     audioFileName: "hoppas.mp3",
     english: "hope",
     wordClass: WordClass.Verb,
-    moreInfoComponent: (<>The sentence in the text omits the subject, <i>jag</i>.</>)
+    moreInfoComponent: (
+      <>
+        The sentence in the text omits the subject, <i>jag</i>.
+      </>
+    ),
   },
   {
     swedish: "blir",
@@ -261,8 +267,8 @@ export const itsFikaTimeWords: Word[] = [
     swedish: "choklad",
     audioFileName: "choklad.mp3",
     english: "chocolate",
-    wordClass: WordClass.Noun
-  }
+    wordClass: WordClass.Noun,
+  },
 ];
 
 export const itsFikaTimeAdditionalWords: Word[] = [
@@ -270,28 +276,28 @@ export const itsFikaTimeAdditionalWords: Word[] = [
     swedish: "i",
     audioFileName: "i.mp3",
     english: "(in context of time:) to",
-    wordClass: WordClass.Preposition
+    wordClass: WordClass.Preposition,
   },
   {
     swedish: "på",
     audioFileName: "på.mp3",
     english: "(in context of time:) in the",
     wordClass: WordClass.Preposition,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "morgonen",
     dictionaryForm: "(en) morgon",
     audioFileName: "morgonen.mp3",
     english: "the morning",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "förmiddagen",
     dictionaryForm: "(en) morgon",
     audioFileName: "förmiddagen.mp3",
     english: "the time after morning but before noon (usually 10-12)",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "dagen",
@@ -304,41 +310,41 @@ export const itsFikaTimeAdditionalWords: Word[] = [
         In casual speech this is pronounced [da:n]:{" "}
         <AudioButton fileName="dan.mp3" />
       </p>
-    )
+    ),
   },
   {
     swedish: "eftermiddagen",
     dictionaryForm: "(en) eftermiddag",
     audioFileName: "eftermiddagen.mp3",
     english: "the afternoon",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "kvällen",
     dictionaryForm: "(en) kväll",
     audioFileName: "kvällen.mp3",
     english: "the evening",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "natten",
     dictionaryForm: "(en) natt",
     audioFileName: "natten.mp3",
     english: "the night",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "flyget",
     dictionaryForm: "(ett) flyg",
     audioFileName: "flyget.mp3",
     english: "the flight",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "avgår",
     dictionaryForm: "avgå",
     audioFileName: "avgår.mp3",
     english: "depart",
-    wordClass: WordClass.Verb
-  }
+    wordClass: WordClass.Verb,
+  },
 ];

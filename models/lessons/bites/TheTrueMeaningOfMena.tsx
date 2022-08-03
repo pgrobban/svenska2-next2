@@ -198,7 +198,7 @@ const chunks = [
         (= I didn't mean/intend for this to happen.)
       </p>
     </div>
-  </div>
+  </div>,
 ];
 
 export default chunks;

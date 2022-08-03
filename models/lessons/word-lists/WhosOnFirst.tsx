@@ -6,32 +6,32 @@ export const whosOnFirstWords: Word[] = [
     swedish: "(en) kommentator",
     english: "sports commentator/ announcer",
     audioFileName: "kommentator.mp3",
-    wordClass: WordClass.Interjection
+    wordClass: WordClass.Interjection,
   },
   {
     swedish: "oj",
     english: "(expression of surprise)",
     audioFileName: "oj.mp3",
-    wordClass: WordClass.Interjection
+    wordClass: WordClass.Interjection,
   },
   {
     swedish: "vilket...",
     english: "what a...",
     audioFileName: "vilket.mp3",
     wordClass: WordClass.Interjection,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "spännande",
     english: "exciting, thrilling",
     audioFileName: "spännande.mp3",
-    wordClass: WordClass.Adjective
+    wordClass: WordClass.Adjective,
   },
   {
     swedish: "(ett) lopp",
     english: "race (running)",
     audioFileName: "vilket.mp3",
-    wordClass: WordClass.Interjection
+    wordClass: WordClass.Interjection,
   },
   {
     swedish: "mål",
@@ -43,47 +43,47 @@ export const whosOnFirstWords: Word[] = [
         Here the phrase <i>är i mål</i> means "to have finished" or to have
         "reached the goal".
       </>
-    )
+    ),
   },
   {
     swedish: "första",
     english: "first",
     audioFileName: "första.mp3",
     wordClass: WordClass.Numeral,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "(en) plats",
     english: "place, position",
     audioFileName: "plats.mp3",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "tvåa = andra plats",
     english: "second place",
     audioFileName: "tvåa.mp3",
     wordClass: WordClass.Numeral,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "trea = tredje plats",
     english: "third place",
     audioFileName: "trea.mp3",
     wordClass: WordClass.Numeral,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "det här",
     english: "this",
     audioFileName: "det här.mp3",
-    wordClass: WordClass.Pronoun
+    wordClass: WordClass.Pronoun,
   },
   {
     swedish: "sjunde",
     english: "seventh",
     audioFileName: "sjunde.mp3",
     wordClass: WordClass.Pronoun,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "raka",
@@ -102,14 +102,14 @@ export const whosOnFirstWords: Word[] = [
           <i>tre raka set</i> etc.
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "(en) seger",
     english: "win, victory",
     audioFileName: "seger.mp3",
-    wordClass: WordClass.Noun
-  }
+    wordClass: WordClass.Noun,
+  },
 ];
 
 export const whosOnFirstAdditionalWords: Word[] = [];

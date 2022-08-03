@@ -1,14 +1,9 @@
 import React from "react";
 import {
   canYouCountWords,
-  canYouCountAdditionalWords
+  canYouCountAdditionalWords,
 } from "../../word-lists/CanYouCount";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableRow
-} from "@mui/material";
+import { Table, TableBody, TableCell, TableRow } from "@mui/material";
 import WordList from "../../../../components/WordList";
 
 const lessonChunks = [
@@ -125,7 +120,7 @@ const lessonChunks = [
     <p>
       * The a in <i>fyra</i> gets cut off to keep the word one syllable.
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

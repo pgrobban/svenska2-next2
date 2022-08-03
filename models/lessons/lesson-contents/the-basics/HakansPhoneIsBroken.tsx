@@ -3,11 +3,11 @@ import { Table, TableBody, TableCell, TableRow } from "@mui/material";
 import WordList from "../../../../components/WordList";
 import {
   hakansPhoneIsBrokenWords,
-  hakansPhoneIsBrokenAdditionalWords
+  hakansPhoneIsBrokenAdditionalWords,
 } from "../../word-lists/HakansPhoneIsBroken";
 import AudioButton from "../../../../components/AudioButton";
 import { IfDesktop, IfMobile } from "../../../../helpers/showBasedOnScreen";
-import Image from 'next/image';
+import Image from "next/image";
 
 const lessonChunks = [
   <div className="lesson-chunk">
@@ -209,7 +209,7 @@ const lessonChunks = [
         ett område &rarr; område, ett kafé &rarr; kafé<strong>t</strong>
       </li>
     </ul>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

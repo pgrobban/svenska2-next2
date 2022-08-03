@@ -4,7 +4,7 @@ import {
   getEmptyStringsArrayWithFirstValueSet,
   getNullArray,
   getBorderColorByMark,
-  trimInputs
+  trimInputs,
 } from "../../helpers/utils";
 import { CorrectIncorrectMark, ExerciseProps } from "../../models/types";
 
@@ -80,7 +80,7 @@ const WriteSentences: React.FunctionComponent<WriteSentencesProps> = (
                   ? {
                       borderStyle: "solid",
                       borderWidth: 1,
-                      borderColor: getBorderColorByMark(answerMarks[index])
+                      borderColor: getBorderColorByMark(answerMarks[index]),
                     }
                   : {}
               }

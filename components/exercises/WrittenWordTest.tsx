@@ -8,7 +8,7 @@ import {
   Table,
   TableBody,
   TableCell,
-  TableRow
+  TableRow,
 } from "@mui/material";
 import { CorrectIncorrectMark, ExerciseProps } from "../../models/types";
 import {
@@ -16,7 +16,7 @@ import {
   getBorderColorByMark,
   getEmptyStringsArray,
   getNullArray,
-  sortByCaseInsensitiveSwedishLocale
+  sortByCaseInsensitiveSwedishLocale,
 } from "../../helpers/utils";
 
 export const swedishToEnglishDefaultInstructions = (
@@ -60,7 +60,7 @@ const WrittenWordTest: React.FunctionComponent<WrittenWordTestProps> = (
     numberOfWordsToSample,
     requiredCorrectAnswers,
     onMarkAsCompleted,
-    instructions
+    instructions,
   } = props;
   const randomWords = generateRandomWords(words, numberOfWordsToSample);
   const sortedMeanings = sortByCaseInsensitiveSwedishLocale(meanings);
@@ -144,7 +144,7 @@ const WrittenWordTest: React.FunctionComponent<WrittenWordTestProps> = (
                               borderWidth: 1,
                               borderColor: getBorderColorByMark(
                                 answerMarks[index]
-                              )
+                              ),
                             }
                           : {}
                       }

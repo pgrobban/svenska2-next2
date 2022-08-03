@@ -26,13 +26,12 @@ const LessonList: React.FC<Props> = (props: Props) => {
             className={classnames([
               "theme-swe-hover",
               {
-                "theme-swe-active": activeLessonUrlName === overviewLesson.urlName,
+                "theme-swe-active":
+                  activeLessonUrlName === overviewLesson.urlName,
               },
             ])}
           >
-            <Link
-              href={`${COURSES_PATH}/${overviewLesson.urlName}`}
-            >
+            <Link href={`${COURSES_PATH}/${overviewLesson.urlName}`}>
               <a title={overviewLesson.description}>Course overview</a>
             </Link>
           </li>

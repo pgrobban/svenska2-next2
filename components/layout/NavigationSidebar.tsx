@@ -58,7 +58,7 @@ const NavigationSidebar = (props: Props) => {
         </div>
 
         <div className="w3-margin-left">
-          <GlobalSearch classnames="w3-hide-medium"/>
+          <GlobalSearch classnames="w3-hide-medium" />
         </div>
       </IfMobile>
 

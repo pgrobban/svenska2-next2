@@ -4,12 +4,12 @@ import {
   TableBody,
   TableCell,
   TableHead,
-  TableRow
+  TableRow,
 } from "@mui/material";
 import WordList from "../../../../components/WordList";
 import {
   meMyselfAndIPart1Words,
-  meMyselfAndIPart1AdditionalWords
+  meMyselfAndIPart1AdditionalWords,
 } from "../../word-lists/MeMyselfAndIPart1";
 import AudioButton from "../../../../components/AudioButton";
 import Image from "next/image";
@@ -96,11 +96,7 @@ const lessonChunks = [
         </TableRow>
         <TableRow>
           <TableCell>
-            <Image
-              width={160}
-              height={200}
-              src="/images/hug.jpg"
-            />
+            <Image width={160} height={200} src="/images/hug.jpg" />
             <p>
               Håkan kramar Lena.
               <br />
@@ -335,7 +331,7 @@ const lessonChunks = [
       Saga leker med <strong>er</strong> (plural you).
       <br />
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

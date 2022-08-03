@@ -8,25 +8,25 @@ export const bigNumbersWords: Word[] = [
     dictionaryForm: "betala",
     english: "pay",
     audioFileName: "betalar.mp3",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "(en) nota",
     english: "bill/check at a restaurant, cafe etc.",
     audioFileName: "betalar.mp3",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "(ett) café",
     english: "cafe",
     audioFileName: "café.mp3",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "(en) kassörska",
     english: "female cashier",
     audioFileName: "kassörska.mp3",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "(en) chokladboll",
@@ -38,27 +38,27 @@ export const bigNumbersWords: Word[] = [
         swedish: "choklad",
         english: "chocolate",
         audioFileName: "choklad.mp3",
-        wordClass: WordClass.Noun
+        wordClass: WordClass.Noun,
       },
       {
         swedish: "(en) boll",
         english: "ball",
         audioFileName: "boll.mp3",
-        wordClass: WordClass.Noun
-      }
-    ]
+        wordClass: WordClass.Noun,
+      },
+    ],
   },
   {
     swedish: "dubbel",
     english: "double",
     audioFileName: "dubbel.mp3",
-    wordClass: WordClass.Adjective
+    wordClass: WordClass.Adjective,
   },
   {
     swedish: "espresso",
     english: "espresso (coffee)",
     audioFileName: "espresso.mp3",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "någon",
@@ -71,7 +71,7 @@ export const bigNumbersWords: Word[] = [
         <AudioButton fileName="nån.mp3" /> and it is acceptable to use this form
         in chat speak.
       </>
-    )
+    ),
   },
   {
     swedish: "(en) hundralapp",
@@ -89,21 +89,21 @@ export const bigNumbersWords: Word[] = [
         swedish: "(ett) hundra",
         english: "hundred",
         audioFileName: "hundra.mp3",
-        wordClass: WordClass.Numeral
+        wordClass: WordClass.Numeral,
       },
       {
         swedish: "(en) lapp",
         english: "paper with something written on it",
         audioFileName: "lapp.mp3",
-        wordClass: WordClass.Noun
-      }
-    ]
+        wordClass: WordClass.Noun,
+      },
+    ],
   },
   {
     swedish: "(en) femhundring = femhundralapp",
     english: "500 kr bill/note",
     audioFileName: "femhundring.mp3",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "annars",
@@ -116,7 +116,7 @@ export const bigNumbersWords: Word[] = [
         "If it's not okay (that I pay with a 500 kr bill), I can pay by card
         instead."
       </>
-    )
+    ),
   },
   {
     swedish: "kassörskan",
@@ -128,19 +128,19 @@ export const bigNumbersWords: Word[] = [
       <>
         This is the definite form of <i>kassörska</i>.
       </>
-    )
+    ),
   },
   {
     swedish: "växel",
     english: "change (money)",
     audioFileName: "växel.mp3",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "tillbaka",
     english: "back, in return",
     audioFileName: "tillbaka.mp3",
-    wordClass: WordClass.Adverb
+    wordClass: WordClass.Adverb,
   },
   {
     swedish: "kvittot",
@@ -152,13 +152,13 @@ export const bigNumbersWords: Word[] = [
       <>
         This is the definite form of <i>kvitto</i>.
       </>
-    )
+    ),
   },
   {
     swedish: "behålla",
     english: "keep",
     audioFileName: "behålla.mp3",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "detsamma",
@@ -171,8 +171,8 @@ export const bigNumbersWords: Word[] = [
         that someone has said to you back to them. <br />
         The <i>tack</i> is optional but adding it is more polite.
       </>
-    )
-  }
+    ),
+  },
 ];
 
 export const bigNumbersAdditionalWords: Word[] = [
@@ -180,36 +180,36 @@ export const bigNumbersAdditionalWords: Word[] = [
     swedish: "(ett) tusen",
     english: "thousand",
     audioFileName: "tusen.mp3",
-    wordClass: WordClass.Numeral
+    wordClass: WordClass.Numeral,
   },
   {
     swedish: "(en) miljon",
     english: "million",
     audioFileName: "million.mp3",
-    wordClass: WordClass.Numeral
+    wordClass: WordClass.Numeral,
   },
   {
     swedish: "(en) miljard",
     english: "billion (thousand million)",
     audioFileName: "miljard.mp3",
-    wordClass: WordClass.Numeral
+    wordClass: WordClass.Numeral,
   },
   {
     swedish: "(en) biljon",
     english: "trillion (million million)",
     audioFileName: "biljon.mp3",
-    wordClass: WordClass.Numeral
+    wordClass: WordClass.Numeral,
   },
   {
     swedish: "(en) biljard",
     english: "quadrillion",
     audioFileName: "biljon.mp3",
-    wordClass: WordClass.Numeral
+    wordClass: WordClass.Numeral,
   },
   {
     swedish: "komma",
     english: "comma (,)",
     audioFileName: "komma.mp3",
-    wordClass: WordClass.Noun
-  }
+    wordClass: WordClass.Noun,
+  },
 ];

@@ -22,7 +22,7 @@ const CourseList: React.FC<CourseListProps> = (props) => {
             key={index}
             className={classnames([
               "theme-swe-hover",
-              { "theme-swe-active": activeBiteUrlName === bite.urlName }
+              { "theme-swe-active": activeBiteUrlName === bite.urlName },
             ])}
           >
             <BiteLink bite={bite} />

@@ -18,7 +18,7 @@ const words: Word[] = [
           To express playing games, use <i>spelar</i> (see below).
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "sover",
@@ -26,86 +26,86 @@ const words: Word[] = [
     audioFileName: "sover.mp3",
     payAttentionToPronunciation: "[såver]",
     english: "sleep",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "simmar",
     dictionaryForm: "simma",
     audioFileName: "simmar.mp3",
     english: "swim",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "skriver",
     dictionaryForm: "skriva",
     audioFileName: "skriver.mp3",
     english: "write",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "en",
     audioFileName: "en.mp3",
     english: "one",
     wordClass: WordClass.Numeral,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "(en) tidning",
     audioFileName: "tidning.mp3",
     english: "newspaper",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "kör",
     dictionaryForm: "köra",
     audioFileName: "kör.mp3",
     english: "drive",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "(en) bil",
     audioFileName: "bil.mp3",
     english: "car",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "åker",
     dictionaryForm: "åka",
     audioFileName: "åker.mp3",
     english: "ride/travel (with a vehicle)",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "(ett) tåg",
     audioFileName: "tåg.mp3",
     english: "(a) train",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "baka",
     audioFileName: "baka.mp3",
     english: "bake",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "(ett) bröd",
     audioFileName: "bröd.mp3",
     english: "bread",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "äter",
     dictionaryForm: "äter",
     audioFileName: "äta.mp3",
     english: "eat",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "dricker",
     dictionaryForm: "dricka",
     audioFileName: "dricker.mp3",
     english: "(to) drink",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "spelar",
@@ -135,7 +135,7 @@ const words: Word[] = [
           </ul>
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "(ett) datorspel",
@@ -147,41 +147,41 @@ const words: Word[] = [
         swedish: "(en) dator",
         audioFileName: "dator.mp3",
         english: "computer",
-        wordClass: WordClass.Noun
+        wordClass: WordClass.Noun,
       },
       {
         swedish: "(ett) spel",
         audioFileName: "spel.mp3",
         english: "game",
-        wordClass: WordClass.Noun
-      }
-    ]
+        wordClass: WordClass.Noun,
+      },
+    ],
   },
   {
     swedish: "tittar",
     dictionaryForm: "titta",
     audioFileName: "tittar.mp3",
     english: "(to) watch",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "på",
     audioFileName: "på.mp3",
     english: "at, on",
-    wordClass: WordClass.Preposition
+    wordClass: WordClass.Preposition,
   },
   {
     swedish: "(en) TV",
     audioFileName: "tv.mp3",
     english: "TV",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "tränar",
     dictionaryForm: "träna",
     audioFileName: "tränar.mp3",
     english: "work out, exercise",
-    wordClass: WordClass.Verb
-  }
+    wordClass: WordClass.Verb,
+  },
 ];
 export default words;

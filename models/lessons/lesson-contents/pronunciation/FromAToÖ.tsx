@@ -2,7 +2,7 @@ import React from "react";
 import AudioButton from "../../../../components/AudioButton";
 import { IfMobile, IfDesktop } from "../../../../helpers/showBasedOnScreen";
 import { LETTERS_OF_ALPHABET, VOWELS } from "../../../../helpers/utils";
-import Image from 'next/image';
+import Image from "next/image";
 
 const lessonChunks = [
   <div className="lesson-chunk">
@@ -42,7 +42,13 @@ const lessonChunks = [
         </em>
       </u>
     </p>
-    <Image className="w3-image" src={"/images/åäömeme.jpg"} alt="åäö meme" height="433" width="577" />
+    <Image
+      className="w3-image"
+      src={"/images/åäömeme.jpg"}
+      alt="åäö meme"
+      height="433"
+      width="577"
+    />
 
     <p>
       This means they are pronounced differently from A and O. We will see more
@@ -58,7 +64,7 @@ const lessonChunks = [
           className="w3-show-inline-block w3-padding-small"
           key={letter}
           style={{
-            color: VOWELS.includes(letter) ? "red" : "black"
+            color: VOWELS.includes(letter) ? "red" : "black",
           }}
         >
           {letter}&nbsp;
@@ -450,7 +456,7 @@ const lessonChunks = [
       When you feel that you are ready, head on over to the exercises for this
       lesson.
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

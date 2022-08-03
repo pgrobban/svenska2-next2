@@ -21,8 +21,12 @@ const WriteWhatYouHear: React.FunctionComponent<WriteWhatYouHearProps> = (
   const { words, numberOfWordsToSample, onMarkAsCompleted } = props;
   const randomWords = generateRandomWords(words, numberOfWordsToSample);
   const [sampledWords, setSampledWords] = useState(randomWords);
-  const [inputs, setInputs] = useState(getEmptyStringsArray(numberOfWordsToSample));
-  const [answerMarks, setAnswerMarks] = useState<CorrectIncorrectMark[] | null[]>(getNullArray(numberOfWordsToSample));
+  const [inputs, setInputs] = useState(
+    getEmptyStringsArray(numberOfWordsToSample)
+  );
+  const [answerMarks, setAnswerMarks] = useState<
+    CorrectIncorrectMark[] | null[]
+  >(getNullArray(numberOfWordsToSample));
   const [answersChecked, setAnswersChecked] = useState(false);
 
   const updateInputs = (index: number, newValue: string) => {
@@ -67,9 +71,9 @@ const WriteWhatYouHear: React.FunctionComponent<WriteWhatYouHearProps> = (
       <h5>Instructions &amp; passing criteria</h5>
 
       <p>
-        You will be given {numberOfWordsToSample} random names in random order. Listen
-        to the recordings and write the correct spelling of all the names in the
-        respective text fields below.
+        You will be given {numberOfWordsToSample} random names in random order.
+        Listen to the recordings and write the correct spelling of all the names
+        in the respective text fields below.
         <br />
         You don't have to worry about letter casing.
         <br />
@@ -105,7 +109,7 @@ const WriteWhatYouHear: React.FunctionComponent<WriteWhatYouHearProps> = (
                   ? {
                       borderStyle: "solid",
                       borderWidth: 1,
-                      borderColor: getBorderColorByMark(answerMarks[index])
+                      borderColor: getBorderColorByMark(answerMarks[index]),
                     }
                   : {}
               }

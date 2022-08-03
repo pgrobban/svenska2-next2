@@ -8,9 +8,9 @@ interface InstallingSwedishKeyboardInstructionsDialogProps {
   onClose: () => void;
 }
 
-const InstallingSwedishKeyboardInstructionsDialog: React.FC<InstallingSwedishKeyboardInstructionsDialogProps> = (
-  props
-) => {
+const InstallingSwedishKeyboardInstructionsDialog: React.FC<
+  InstallingSwedishKeyboardInstructionsDialogProps
+> = (props) => {
   const { dialogOpenForOperatingSystem, onClose } = props;
 
   return (

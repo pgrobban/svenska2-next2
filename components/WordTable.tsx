@@ -5,13 +5,14 @@ import {
   TableBody,
   TableCell,
   TableHead,
-  TableRow
+  TableRow,
 } from "@mui/material";
 import AudioButton from "./AudioButton";
 import Icon from "./Icon";
 import { Word, WordClass } from "../models/types";
 
-const getKeyByValue = (obj: any, value: any) => Object.keys(obj).find(key => obj[key] === value);
+const getKeyByValue = (obj: any, value: any) =>
+  Object.keys(obj).find((key) => obj[key] === value);
 
 interface WordTableProps {
   words: Word[];
@@ -64,7 +65,10 @@ const WordTable: React.FC<WordTableProps> = (props) => {
                   </TableCell>
                   <TableCell>{word.english}</TableCell>
                   <TableCell>
-                    <span className="dotted-underline" title={resolvedWordClass}>
+                    <span
+                      className="dotted-underline"
+                      title={resolvedWordClass}
+                    >
                       {word.wordClass}
                     </span>
                   </TableCell>

@@ -29,22 +29,10 @@ const guessCorrectPronunciationGWordChoices = [
   "någon",
   "arg",
   "helg",
-  "torg"
+  "torg",
 ];
 const guessCorrectPronunciationGAnswers = [
-  1,
-  2,
-  1,
-  2,
-  1,
-  1,
-  1,
-  2,
-  1,
-  1,
-  2,
-  2,
-  2
+  1, 2, 1, 2, 1, 1, 1, 2, 1, 1, 2, 2, 2,
 ];
 
 const guessCorrectPronunciationKWordChoices = [
@@ -60,22 +48,10 @@ const guessCorrectPronunciationKWordChoices = [
   "lika",
   "ask",
   "väska",
-  "risk"
+  "risk",
 ];
 const guessCorrectPronunciationKAnswers = [
-  1,
-  2,
-  1,
-  1,
-  2,
-  2,
-  2,
-  1,
-  1,
-  1,
-  1,
-  1,
-  1
+  1, 2, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1,
 ];
 
 const exercises = [
@@ -89,7 +65,7 @@ const exercises = [
       instructions: guessCorrectPronunciationGInstructions,
       wordChoices: guessCorrectPronunciationGWordChoices,
       correctAnswers: guessCorrectPronunciationGAnswers,
-      requiredCorrectAnswersInARow: 10
+      requiredCorrectAnswersInARow: 10,
     }}
   />,
   <Exercise
@@ -102,9 +78,9 @@ const exercises = [
       instructions: guessCorrectPronunciationKInstructions,
       wordChoices: guessCorrectPronunciationKWordChoices,
       correctAnswers: guessCorrectPronunciationKAnswers,
-      requiredCorrectAnswersInARow: 10
+      requiredCorrectAnswersInARow: 10,
     }}
-  />
+  />,
 ];
 
 export default exercises;

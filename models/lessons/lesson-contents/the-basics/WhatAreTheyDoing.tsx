@@ -352,7 +352,7 @@ const lessonChunks = [
     <p className="w3-margin-left">
       <span className="red-strikethrough">Håkan är kör bil.</span>
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

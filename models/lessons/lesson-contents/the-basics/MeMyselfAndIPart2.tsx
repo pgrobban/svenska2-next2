@@ -4,12 +4,12 @@ import {
   TableBody,
   TableCell,
   TableHead,
-  TableRow
+  TableRow,
 } from "@mui/material";
 import WordList from "../../../../components/WordList";
 import {
   meMyselfAndIPart2Words,
-  meMyselfAndIPart2AdditionalWords
+  meMyselfAndIPart2AdditionalWords,
 } from "../../word-lists/MeMyselfAndIPart2";
 import AudioButton from "../../../../components/AudioButton";
 import Image from "next/image";
@@ -118,12 +118,7 @@ const lessonChunks = [
         </TableRow>
         <TableRow>
           <TableCell>
-            <Image
-              height={200}
-              width={150}
-              alt="suit"
-              src="/images/suit.jpg"
-            />
+            <Image height={200} width={150} alt="suit" src="/images/suit.jpg" />
             <p>
               Håkan <strong>har på sig</strong> en kostym.
             </p>
@@ -449,7 +444,7 @@ const lessonChunks = [
       <br />
       Swedish is weird...
     </p>
-  </div>
+  </div>,
 ];
 
 export default lessonChunks;

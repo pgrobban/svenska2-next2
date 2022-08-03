@@ -9,7 +9,8 @@ export default [
     <p>
       Language Bites are small bite-sized lessons focusing on a single word or
       grammar point that I couldn't find a suitable place for in the textbook,
-      or added here as a repeat so you can quickly find the information you need.
+      or added here as a repeat so you can quickly find the information you
+      need.
     </p>
 
     <p>
@@ -17,8 +18,6 @@ export default [
       still a beginner learner, please read through the textbook first.
     </p>
 
-    <p>
-      Some of the Language Bites have exercises attached to them.
-    </p>
-  </div>
+    <p>Some of the Language Bites have exercises attached to them.</p>
+  </div>,
 ];

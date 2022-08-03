@@ -4,16 +4,16 @@ import {
   Select,
   TextField,
   MenuItem,
-  Button
+  Button,
 } from "@mui/material";
 import React, { useState } from "react";
 import { ExerciseProps } from "../../models/types";
 
 interface CompleteTheSelfIntroductionProps extends ExerciseProps {}
 
-const CompleteTheSelfIntroduction: React.FC<CompleteTheSelfIntroductionProps> = (
-  props: CompleteTheSelfIntroductionProps
-) => {
+const CompleteTheSelfIntroduction: React.FC<
+  CompleteTheSelfIntroductionProps
+> = (props: CompleteTheSelfIntroductionProps) => {
   const { onMarkAsCompleted } = props;
 
   const [name, setName] = useState("");
@@ -93,7 +93,7 @@ const CompleteTheSelfIntroduction: React.FC<CompleteTheSelfIntroductionProps> = 
               inputProps={{
                 min: 0,
                 max: 100,
-                inputMode: "numeric"
+                inputMode: "numeric",
               }}
             />
           </FormControl>{" "}

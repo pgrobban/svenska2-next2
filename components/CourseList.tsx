@@ -20,10 +20,13 @@ interface CourseListProps {
 
 const CourseList: React.FC<CourseListProps> = (props) => {
   const { activeLessonUrlName } = props;
-  const activeCourseName =
-    getCourseNameByLessonUrlName(courses, activeLessonUrlName)?.name;
-  const [expandedCourse, setExpandedCourse] =
-    useState<string | null | undefined>(activeCourseName);
+  const activeCourseName = getCourseNameByLessonUrlName(
+    courses,
+    activeLessonUrlName
+  )?.name;
+  const [expandedCourse, setExpandedCourse] = useState<
+    string | null | undefined
+  >(activeCourseName);
 
   return (
     <div className="course-list">
@@ -35,8 +38,8 @@ const CourseList: React.FC<CourseListProps> = (props) => {
               "w3-animate-left",
               {
                 "theme-swe-active":
-                  activeLessonUrlName === BEFORE_YOU_START_URL_NAME
-              }
+                  activeLessonUrlName === BEFORE_YOU_START_URL_NAME,
+              },
             ])}
           >
             <span>How to use this site</span>
@@ -56,7 +59,7 @@ const CourseList: React.FC<CourseListProps> = (props) => {
                 display: "flex",
                 justifyContent: "space-between",
                 cursor: "pointer",
-                alignItems: "center"
+                alignItems: "center",
               }}
               onClick={() =>
                 setExpandedCourse(

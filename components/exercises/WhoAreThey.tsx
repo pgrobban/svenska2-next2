@@ -5,19 +5,19 @@ import {
   TableBody,
   TableCell,
   TableRow,
-  TextField
+  TextField,
 } from "@mui/material";
 import { CorrectIncorrectMark, ExerciseProps } from "../../models/types";
 import InstallingSwedishKeyboardInstructionsDialog, {
-  OperatingSystem
+  OperatingSystem,
 } from "../InstallingSwedishKeyboardInstructionsDialog";
 import {
   getEmptyStringsArray,
   getNullArray,
   getBorderColorByMark,
-  normalizeInputs
+  normalizeInputs,
 } from "../../helpers/utils";
-import Image from 'next/image';
+import Image from "next/image";
 
 export interface WhoAreTheyProps extends ExerciseProps {}
 
@@ -148,7 +148,7 @@ const WhoAreThey: React.FunctionComponent<WhoAreTheyProps> = (
                       ? {
                           borderStyle: "solid",
                           borderWidth: 1,
-                          borderColor: getBorderColorByMark(answerMarks[index])
+                          borderColor: getBorderColorByMark(answerMarks[index]),
                         }
                       : {}
                   }

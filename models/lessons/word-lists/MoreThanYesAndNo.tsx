@@ -8,14 +8,14 @@ const words: Word[] = [
     audioFileName: "gör.mp3",
     english: "do, make",
     wordClass: WordClass.Verb,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "inte",
     audioFileName: "inte.mp3",
     english: "not",
     wordClass: WordClass.Adverb,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "bilen",
@@ -31,7 +31,7 @@ const words: Word[] = [
           definite forms in a later lesson.
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "spelet",
@@ -47,7 +47,7 @@ const words: Word[] = [
           definite forms in a later lesson.
         </p>
       </>
-    )
+    ),
   },
   {
     swedish: "pizzor",
@@ -60,7 +60,7 @@ const words: Word[] = [
         <i>pizzor</i> is the plural form of <i>pizza</i>. We will learn more
         about plural forms in a later lesson.
       </p>
-    )
+    ),
   },
   {
     swedish: "pluggar",
@@ -74,13 +74,13 @@ const words: Word[] = [
         studying in a school or university to doing homework or exercises in a
         particular course, like the website you are using now.
       </p>
-    )
+    ),
   },
   {
     swedish: "du",
     audioFileName: "du.mp3",
     english: "you (singular)",
-    wordClass: WordClass.Pronoun
+    wordClass: WordClass.Pronoun,
   },
   {
     swedish: "svenska",
@@ -90,22 +90,23 @@ const words: Word[] = [
     wordClass: WordClass.Noun,
     moreInfoComponent: (
       <p>
-        Notice that names of languages in Swedish are not capitalized like they are in English.
+        Notice that names of languages in Swedish are not capitalized like they
+        are in English.
       </p>
-    )
+    ),
   },
   {
     swedish: "pratar",
     dictionaryForm: "prata",
     audioFileName: "pratar.mp3",
     english: "speak",
-    wordClass: WordClass.Verb
+    wordClass: WordClass.Verb,
   },
   {
     swedish: "ni",
     audioFileName: "ni.mp3",
     english: "you (plural)",
-    wordClass: WordClass.Pronoun
+    wordClass: WordClass.Pronoun,
   },
   {
     swedish: "engelska",
@@ -114,15 +115,16 @@ const words: Word[] = [
     wordClass: WordClass.Noun,
     moreInfoComponent: (
       <p>
-        Notice that names of languages in Swedish are not capitalized like they are in English.
+        Notice that names of languages in Swedish are not capitalized like they
+        are in English.
       </p>
-    )
+    ),
   },
   {
     swedish: "vi",
     audioFileName: "vi.mp3",
     english: "we",
-    wordClass: WordClass.Pronoun
+    wordClass: WordClass.Pronoun,
   },
 ];
 

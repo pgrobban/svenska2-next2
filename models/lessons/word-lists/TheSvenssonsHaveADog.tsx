@@ -6,7 +6,7 @@ export const mainWords: Word[] = [
     swedish: "(en) hund",
     audioFileName: "hund.mp3",
     english: "dog",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "Ludde",
@@ -18,7 +18,7 @@ export const mainWords: Word[] = [
         Ludde can be a nickname for people named Ludvig. In this case the dog
         name comes from the noun <i>ludd</i>, which means fluff or fuzz.
       </p>
-    )
+    ),
   },
   {
     swedish: "den",
@@ -26,33 +26,33 @@ export const mainWords: Word[] = [
     payAttentionToPronunciation: "[denn]",
     english: "it",
     wordClass: WordClass.Pronoun,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "stor",
     audioFileName: "stor.mp3",
     english: "big",
-    wordClass: WordClass.Adjective
+    wordClass: WordClass.Adjective,
   },
   {
     swedish: "också",
     audioFileName: "också.mp3",
     english: "also, too",
     wordClass: WordClass.Adverb,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "det",
     audioFileName: "det.mp3",
     english: "it",
     wordClass: WordClass.Pronoun,
-    moreInfoComponent: "See GP"
+    moreInfoComponent: "See GP",
   },
   {
     swedish: "svår",
     audioFileName: "svår.mp3",
     english: "difficult",
-    wordClass: WordClass.Adjective
+    wordClass: WordClass.Adjective,
   },
   {
     swedish: "vänner",
@@ -64,22 +64,22 @@ export const mainWords: Word[] = [
       <>
         This is the plural form of the noun <i>vän</i>.
       </>
-    )
+    ),
   },
   {
     swedish: "de",
     audioFileName: "de.mp3",
     payAttentionToPronunciation: "[domm]",
     english: "they",
-    wordClass: WordClass.Pronoun
+    wordClass: WordClass.Pronoun,
   },
   {
     swedish: "snälla",
     dictionaryForm: "snäll",
     audioFileName: "vänner.mp3",
     english: "kind, friendly",
-    wordClass: WordClass.Adjective
-  }
+    wordClass: WordClass.Adjective,
+  },
 ];
 
 export const additionalWords = [
@@ -87,37 +87,37 @@ export const additionalWords = [
     swedish: "(en) katt",
     audioFileName: "katt.mp3",
     english: "cat",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "(ett) hus",
     audioFileName: "hus.mp3",
     english: "house",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "röd",
     audioFileName: "röd.mp3",
     english: "red",
-    wordClass: WordClass.Adjective
+    wordClass: WordClass.Adjective,
   },
   {
     swedish: "blå",
     audioFileName: "blå.mp3",
     english: "blue",
-    wordClass: WordClass.Adjective
+    wordClass: WordClass.Adjective,
   },
   {
     swedish: "grön",
     audioFileName: "grön.mp3",
     english: "green",
-    wordClass: WordClass.Adjective
+    wordClass: WordClass.Adjective,
   },
   {
     swedish: "gul",
     audioFileName: "gul.mp3",
     english: "yellow",
-    wordClass: WordClass.Adjective
+    wordClass: WordClass.Adjective,
   },
   {
     swedish: "liten",
@@ -126,7 +126,7 @@ export const additionalWords = [
     wordClass: WordClass.Adjective,
     moreInfoComponent: (
       <>Note that this means "small size" and not "a small amount".</>
-    )
+    ),
   },
   {
     swedish: "söt",
@@ -139,13 +139,13 @@ export const additionalWords = [
         <br />
         When describing people and animals, söt means cute.
       </>
-    )
+    ),
   },
   {
     swedish: "bra",
     audioFileName: "bra.mp3",
     english: "good",
-    wordClass: WordClass.Adjective
+    wordClass: WordClass.Adjective,
   },
   {
     swedish: "dålig",
@@ -158,19 +158,19 @@ export const additionalWords = [
         want to describe a person who does bad things, you can use <i>elak</i>{" "}
         instead.
       </>
-    )
+    ),
   },
   {
     swedish: "elak",
     audioFileName: "elak.mp3",
     english: "mean",
-    wordClass: WordClass.Adjective
+    wordClass: WordClass.Adjective,
   },
   {
     swedish: "tom",
     audioFileName: "tom.mp3",
     english: "empty",
-    wordClass: WordClass.Adjective
+    wordClass: WordClass.Adjective,
   },
   {
     swedish: "full",
@@ -183,12 +183,12 @@ export const additionalWords = [
         <br />
         The word <i>full</i>, when used on people, means drunk!
       </>
-    )
+    ),
   },
   {
     swedish: "smart",
     audioFileName: "smart.mp3",
     english: "smart",
-    wordClass: WordClass.Adjective
-  }
+    wordClass: WordClass.Adjective,
+  },
 ];

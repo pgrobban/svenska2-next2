@@ -3,7 +3,10 @@ import Exercise from "../../../components/Exercise";
 import ChooseTheCorrectOption from "../../../components/exercises/ChooseTheCorrectOption";
 import CompleteTheSelfIntroduction from "../../../components/exercises/CompleteTheSelfIntroduction";
 import WhoAreThey from "../../../components/exercises/WhoAreThey";
-import WrittenWordTest, { englishToSwedishDefaultInstructions, swedishToEnglishDefaultInstructions } from "../../../components/exercises/WrittenWordTest";
+import WrittenWordTest, {
+  englishToSwedishDefaultInstructions,
+  swedishToEnglishDefaultInstructions,
+} from "../../../components/exercises/WrittenWordTest";
 import { ExerciseProps } from "../../types";
 
 const exercises = [
@@ -37,7 +40,7 @@ const exercises = [
         "dotter",
         "är",
         "bor",
-        "i"
+        "i",
       ],
       meanings: [
         "hi",
@@ -55,11 +58,11 @@ const exercises = [
         "daughter",
         "is",
         "live",
-        "in"
+        "in",
       ],
       numberOfWordsToSample: 15,
       requiredCorrectAnswers: 12,
-      instructions: swedishToEnglishDefaultInstructions
+      instructions: swedishToEnglishDefaultInstructions,
     }}
   />,
   <Exercise
@@ -85,7 +88,7 @@ const exercises = [
         "daughter",
         "is",
         "live",
-        "in"
+        "in",
       ],
       meanings: [
         "hej",
@@ -103,11 +106,11 @@ const exercises = [
         "dotter",
         "är",
         "bor",
-        "i"
+        "i",
       ],
       numberOfWordsToSample: 15,
       requiredCorrectAnswers: 12,
-      instructions: englishToSwedishDefaultInstructions
+      instructions: englishToSwedishDefaultInstructions,
     }}
   />,
   <Exercise
@@ -124,17 +127,17 @@ const exercises = [
         "Sofia __ min fru.",
         "Jag __ Robert.",
         "Min fru __ i Berlin.",
-        "Min son __ Andreas."
+        "Min son __ Andreas.",
       ],
       choices: [
-        ['bor', 'heter'],
-        ['heter', 'bor', 'är'],
-        ['två', 'fru'],
-        ['är', 'bor'],
-        ['heter', 'är'],
-        ['är', 'heter'],
-        ['heter', 'är', 'bor']
-      ]
+        ["bor", "heter"],
+        ["heter", "bor", "är"],
+        ["två", "fru"],
+        ["är", "bor"],
+        ["heter", "är"],
+        ["är", "heter"],
+        ["heter", "är", "bor"],
+      ],
     }}
   />,
   <Exercise
@@ -143,7 +146,7 @@ const exercises = [
     numberInLesson={5}
     title="Complete the self introduction"
     ExerciseComponent={CompleteTheSelfIntroduction}
-  />
+  />,
 ];
 
 export default exercises;

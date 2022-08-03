@@ -13,93 +13,93 @@ export const iveGotADateWords: Word[] = [
       <>
         This is the plural form of <i>månad</i>.
       </>
-    )
+    ),
   },
   {
     swedish: "januari",
     english: "January",
     wordClass: WordClass.Noun,
-    audioFileName: "januari.mp3"
+    audioFileName: "januari.mp3",
   },
   {
     swedish: "februari",
     english: "February",
     wordClass: WordClass.Noun,
-    audioFileName: "februari.mp3"
+    audioFileName: "februari.mp3",
   },
   {
     swedish: "mars",
     english: "Mars",
     wordClass: WordClass.Noun,
-    audioFileName: "mars.mp3"
+    audioFileName: "mars.mp3",
   },
   {
     swedish: "april",
     english: "April",
     wordClass: WordClass.Noun,
-    audioFileName: "april.mp3"
+    audioFileName: "april.mp3",
   },
   {
     swedish: "maj",
     english: "May",
     wordClass: WordClass.Noun,
-    audioFileName: "maj.mp3"
+    audioFileName: "maj.mp3",
   },
   {
     swedish: "juni",
     english: "June",
     wordClass: WordClass.Noun,
-    audioFileName: "juni.mp3"
+    audioFileName: "juni.mp3",
   },
   {
     swedish: "juli",
     english: "July",
     wordClass: WordClass.Noun,
-    audioFileName: "juli.mp3"
+    audioFileName: "juli.mp3",
   },
   {
     swedish: "augusti",
     payAttentionToPronunciation: "[agusti]",
     english: "August",
     wordClass: WordClass.Noun,
-    audioFileName: "augusti.mp3"
+    audioFileName: "augusti.mp3",
   },
   {
     swedish: "september",
     english: "September",
     wordClass: WordClass.Noun,
-    audioFileName: "september.mp3"
+    audioFileName: "september.mp3",
   },
   {
     swedish: "oktober",
     english: "October",
     wordClass: WordClass.Noun,
-    audioFileName: "oktober.mp3"
+    audioFileName: "oktober.mp3",
   },
   {
     swedish: "november",
     english: "November",
     wordClass: WordClass.Noun,
-    audioFileName: "november.mp3"
+    audioFileName: "november.mp3",
   },
   {
     swedish: "december",
     english: "December",
     wordClass: WordClass.Noun,
-    audioFileName: "december.mp3"
+    audioFileName: "december.mp3",
   },
   {
     swedish: "några",
     english: "a few",
     wordClass: WordClass.Pronoun,
-    audioFileName: "några.mp3"
+    audioFileName: "några.mp3",
   },
   {
     swedish: "högtid",
     english: "religious feast/festival",
     wordClass: WordClass.Noun,
     audioFileName: "högtid.mp3",
-    moreInfoComponent: "See CN"
+    moreInfoComponent: "See CN",
   },
   {
     swedish: "nyårsdagen",
@@ -111,9 +111,9 @@ export const iveGotADateWords: Word[] = [
         swedish: "ett nytt år",
         english: "a new year",
         wordClass: WordClass.Noun,
-        audioFileName: "ett nytt år.mp3"
-      }
-    ]
+        audioFileName: "ett nytt år.mp3",
+      },
+    ],
   },
   {
     swedish: "trettondedag jul",
@@ -125,22 +125,22 @@ export const iveGotADateWords: Word[] = [
         swedish: "(en) jul",
         english: "Christmas",
         wordClass: WordClass.Noun,
-        audioFileName: "jul.mp3"
-      }
-    ]
+        audioFileName: "jul.mp3",
+      },
+    ],
   },
   {
     swedish: "påsk",
     english: "Easter",
     wordClass: WordClass.Noun,
-    audioFileName: "påsk.mp3"
+    audioFileName: "påsk.mp3",
   },
   {
     swedish: "infaller",
     dictionaryForm: "infalla",
     english: "(of a holiday) to occur",
     wordClass: WordClass.Verb,
-    audioFileName: "infaller.mp3"
+    audioFileName: "infaller.mp3",
   },
   {
     swedish: "någon gång",
@@ -151,14 +151,14 @@ export const iveGotADateWords: Word[] = [
       <>
         Can be slurred to <i>nån gång</i> in casual speech.
       </>
-    )
+    ),
   },
   {
     swedish: "valborgsmässoafton",
     english: "Walpurgis Night",
     audioFileName: "valborgsmässoafton.mp3",
     wordClass: WordClass.Noun,
-    moreInfoComponent: "See CN"
+    moreInfoComponent: "See CN",
   },
   {
     swedish: "Kristi himmelfärds dag",
@@ -171,33 +171,33 @@ export const iveGotADateWords: Word[] = [
         swedish: "Kristi (Kristus)",
         english: "Christ",
         wordClass: WordClass.Noun,
-        audioFileName: "kristi.mp3"
+        audioFileName: "kristi.mp3",
       },
       {
         swedish: "(en) himmelfärd",
         english: "ascension",
         wordClass: WordClass.Noun,
-        audioFileName: "kristi.mp3"
+        audioFileName: "kristi.mp3",
       },
       {
         swedish: "(en) himmel",
         english: "sky, heaven",
         wordClass: WordClass.Noun,
-        audioFileName: "himmel.mp3"
+        audioFileName: "himmel.mp3",
       },
       {
         swedish: "(en) färd",
         english: "trip, journey",
         wordClass: WordClass.Noun,
-        audioFileName: "färd.mp3"
-      }
-    ]
+        audioFileName: "färd.mp3",
+      },
+    ],
   },
   {
     swedish: "midsommar",
     english: "MIdsummer (holiday)",
     audioFileName: "midsommar.mp3",
-    wordClass: WordClass.Noun
+    wordClass: WordClass.Noun,
   },
   {
     swedish: "slutet",
@@ -209,7 +209,7 @@ export const iveGotADateWords: Word[] = [
       <>
         This is the definite form of <i>slut</i>.
       </>
-    )
+    ),
   },
   {
     swedish: "julafton",
@@ -228,10 +228,10 @@ export const iveGotADateWords: Word[] = [
             for evening is <i>kväll</i>, as you learned in the lesson "It's Fika
             Time".
           </>
-        )
-      }
-    ]
-  }
+        ),
+      },
+    ],
+  },
 ];
 
 export const iveGotADateAdditionalWords: Word[] = [
@@ -241,12 +241,16 @@ export const iveGotADateAdditionalWords: Word[] = [
     english: "of the day",
     audioFileName: "dagens.mp3",
     wordClass: WordClass.Noun,
-    moreInfoComponent: (<>This is the definite genitive form of <i>dag</i>.</>)
+    moreInfoComponent: (
+      <>
+        This is the definite genitive form of <i>dag</i>.
+      </>
+    ),
   },
   {
     swedish: "(ett) datum",
     english: "date (time)",
     audioFileName: "datum.mp3",
-    wordClass: WordClass.Noun
-  }
+    wordClass: WordClass.Noun,
+  },
 ];

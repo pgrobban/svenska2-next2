@@ -231,5 +231,5 @@ export default [
       <br />= This machine takes some time to start, but once it gets going, it
       can operate by itself.
     </p>
-  </div>
+  </div>,
 ];

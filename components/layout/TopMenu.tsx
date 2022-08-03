@@ -84,7 +84,7 @@ const TopMenu: React.FC<Props> = (props) => {
         </Link>
       </IfDesktop>
 
-      <GlobalSearch classnames={'w3-hide-small w3-right'} />
+      <GlobalSearch classnames={"w3-hide-small w3-right"} />
 
       <div className="w3-clear" />
     </div>
