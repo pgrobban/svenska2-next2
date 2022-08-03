@@ -26,9 +26,9 @@ const Home: React.FC<Props> = () => {
         language? Do you find conventional classroom lessons dull and boring,
         and perhaps even textbooks difficult to understand or too expensive?
         <br />
-        If your answer to any of the questions above is "yes", then why not try
-        a new way of learning? Say goodbye to boring books and unmotivated
-        classmates. At Robban&apos;s Swedish corner, we offer:
+        If your answer to any of the questions above is &quot;yes&quot;, then
+        why not try a new way of learning? Say goodbye to boring books and
+        unmotivated classmates. At Robban&apos;s Swedish corner, we offer:
       </p>
 
       <div
@@ -99,10 +99,10 @@ const Home: React.FC<Props> = () => {
       </div>
 
       <div>
-        Are you an advanced learner? Check out our section called "Language
-        bites". Here you will find more advanced reading materials, answers to
-        frequently asked questions and how to sound more like a native speaker
-        with correct word choices.
+        Are you an advanced learner? Check out our section called &quot;Language
+        bites&quot;. Here you will find more advanced reading materials, answers
+        to frequently asked questions and how to sound more like a native
+        speaker with correct word choices.
       </div>
     </Layout>
   );

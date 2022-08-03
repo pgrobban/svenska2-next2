@@ -84,7 +84,7 @@ const WriteVerbForms: React.FunctionComponent<WriteVerbFormsProps> = (
         Suppose we have the dictionary form of a verb like <i>leka</i> and I
         want to find out what it is in the present tense. In this case I search
         for <i>leka</i> in SAOL and look in the conjugations table at the entry
-        for "presens" (= present tense).
+        for <i>presens</i> (= present tense).
       </p>
 
       <h5>Instructions &amp; passing criteria</h5>

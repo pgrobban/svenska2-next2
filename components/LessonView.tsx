@@ -38,7 +38,7 @@ const LessonView: React.FC<Props> = ({ lesson }) => {
   if (isEmpty(lesson.chunks)) {
     return (
       <Layout location="lessons" title="Oh no!">
-        <span>This lesson hasn't been written yet :(</span>
+        <span>This lesson hasn&apos;t been written yet :(</span>
       </Layout>
     );
   }

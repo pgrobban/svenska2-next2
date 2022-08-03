@@ -83,7 +83,7 @@ const TypingTheAlphabet: React.FunctionComponent<TypingTheAlphabetProps> = (
       </div>
 
       <p>
-        Next, if you're using a keyboard, take a look at the image below to see
+        Next, if you are using a keyboard, take a look at the image below to see
         where Å, Ä and Ö are located.
       </p>
 

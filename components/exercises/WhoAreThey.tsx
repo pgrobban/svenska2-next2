@@ -68,9 +68,10 @@ const WhoAreThey: React.FunctionComponent<WhoAreTheyProps> = (
   return (
     <>
       <p>
-        <strong>Note:</strong> If you haven't done so already, please install
-        the Swedish keyboard for your operating system. Using A or O instead of
-        Å, Ä and Ö will cause your exercise to be <u>marked as incorrect</u>.
+        <strong>Note:</strong> If you haven&apos;t done so already, please
+        install the Swedish keyboard for your operating system. Using A or O
+        instead of Å, Ä and Ö will cause your exercise to be{" "}
+        <u>marked as incorrect</u>.
       </p>
       <p>
         Click on one of the buttons below to get instructions on how to install
@@ -117,14 +118,14 @@ const WhoAreThey: React.FunctionComponent<WhoAreTheyProps> = (
         Look at the pictures and write the names of the members of the
         corresponding Svensson family member according to the text.
         <br />
-        You don't need to worry about capitalization. <br />
-        Click the "Check answers" button when you're finished.
+        You don&apos;t need to worry about capitalization. <br />
+        Click the &quot;Check answers&quot; button when you&apos;re finished.
       </p>
       <p>
         The answers will be marked green if they are correct or red if they are
         incorrect. If all answers are correct, the exercise will be marked as
         completed. If one or more answers are incorrect, fix the mistakes and
-        press "Check answers" again.
+        press &quot;Check answers&quot; again.
       </p>
 
       <Table>

@@ -14,7 +14,7 @@ const defaultInstructions = (
     <p>
       Complete the sentences by selecting a word from each box.
       <br />
-      When you're done, press the "Check Answers" button.
+      When you&apos;re done, press the &quot;Check Answers&quot; button.
     </p>
     <p>You need all answers correct to mark the exercise as passed.</p>
   </>

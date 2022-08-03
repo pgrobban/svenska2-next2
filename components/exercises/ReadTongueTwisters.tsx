@@ -28,8 +28,8 @@ const ReadTongueTwisters: React.FunctionComponent<ReadTongueTwistersProps> = (
         can then listen to the recordings in natural or slow speed.
       </p>
       <p>
-        When you're done, you can mark the exercise as completed by yourself
-        using the button at the bottom.
+        When you&apos;re done, you can mark the exercise as completed by
+        yourself using the button at the bottom.
       </p>
 
       {tongueTwisters.map((tongueTwister, index) => (

@@ -117,8 +117,10 @@ export const getBorderColorByMark = (
   }
 };
 
-export const generateRandomWords = (words: string[], numberOfWords: number) =>
-  sampleSize(words, numberOfWords);
+export const generateRandomWords = (
+  words: string[],
+  numberOfWords: number
+): string[] => sampleSize(words, numberOfWords);
 
 export const getEmptyStringsArray = (numberOfWords: number) =>
   new Array(numberOfWords).fill("");

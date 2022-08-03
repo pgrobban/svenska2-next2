@@ -64,8 +64,8 @@ const WriteWhatYouHear: React.FunctionComponent<WriteWhatYouHearProps> = (
     <>
       <p>
         Imagine you are meeting someone for the first time at a party and you
-        don't know their name. You ask for their name but didn't quite catch
-        what they said, so you ask them to spell the name out for you.
+        don&apos;t know their name. You ask for their name but didn&apos;t quite
+        catch what they said, so you ask them to spell the name out for you.
       </p>
 
       <h5>Instructions &amp; passing criteria</h5>
@@ -75,16 +75,16 @@ const WriteWhatYouHear: React.FunctionComponent<WriteWhatYouHearProps> = (
         Listen to the recordings and write the correct spelling of all the names
         in the respective text fields below.
         <br />
-        You don't have to worry about letter casing.
+        You don&apos;t have to worry about letter casing.
         <br />
-        Click the "Check answers" button when you are done.
+        Click the &quot;Check answers&quot; button when you are done.
       </p>
       <p>
         Correct answers will be marked with a green text field and incorrect
-        answers with a red text field. Note that once you click the "Check
-        answers" button, the text fields will be disabled. If you want to try
-        again, you have to press the "Reset" button below to clear the form and
-        generate {numberOfWordsToSample} new random names.
+        answers with a red text field. Note that once you click the &quot;Check
+        answers&quot; button, the text fields will be disabled. If you want to
+        try again, you have to press the &quot;Reset&quot; button below to clear
+        the form and generate {numberOfWordsToSample} new random names.
       </p>
 
       <div className="w3-margin-bottom" style={{ maxWidth: 300 }}>

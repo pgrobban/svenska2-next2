@@ -26,7 +26,8 @@ export const swedishToEnglishDefaultInstructions = (
       order. What do the words mean? For each word, select the corresponding
       meaning in English from the dropdowns to the right.
       <br />
-      Press the "Check answers" button below the table when you're done.
+      Press the &quot;Check answers&quot; button below the table when
+      you&apos;re done.
     </p>
   </>
 );
@@ -38,7 +39,8 @@ export const englishToSwedishDefaultInstructions = (
       <br />
       Select the correct translations in the dropdown menus.
       <br />
-      Press the "Check answers" button below the table when you're done.
+      Press the &quot;Check answers&quot; button below the table when
+      you&apos;re done.
     </p>
   </>
 );

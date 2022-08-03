@@ -53,9 +53,9 @@ const CompleteTheSelfIntroduction: React.FC<
         introduction.
       </p>
       <p>
-        Since I can't check if you have answered truthfully or not, the only
-        criteria for passing is that you have entered at least something in all
-        boxes.
+        Since I can&apos;t check if you have answered truthfully or not, the
+        only criteria for passing is that you have entered at least something in
+        all boxes.
       </p>
 
       <h6 className="w3-margin-top w3-center">Min introduktion</h6>
