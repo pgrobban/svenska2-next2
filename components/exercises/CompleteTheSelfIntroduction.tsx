@@ -7,13 +7,11 @@ import {
   Button,
 } from "@mui/material";
 import React, { useState } from "react";
-import { ExerciseComponentProps } from "../../models/types";
+import { ExerciseComponentType } from "../../models/types";
 
-interface CompleteTheSelfIntroductionProps extends ExerciseComponentProps {}
+interface CompleteTheSelfIntroductionProps {}
 
-const CompleteTheSelfIntroduction: React.FC<
-  CompleteTheSelfIntroductionProps
-> = (props: CompleteTheSelfIntroductionProps) => {
+const CompleteTheSelfIntroduction: ExerciseComponentType<CompleteTheSelfIntroductionProps> = (props) => {
   const { onMarkAsCompleted } = props;
 
   const [name, setName] = useState("");

@@ -2,18 +2,16 @@ import React, { ReactElement, useState } from "react";
 import AudioButton from "../AudioButton";
 import { sample, without } from "lodash";
 import { Button } from "@mui/material";
-import { ExerciseComponentProps } from "../../models/types";
+import { ExerciseComponentType } from "../../models/types";
 
-export interface GuessCorrectPronunciationProps extends ExerciseComponentProps {
+export interface GuessCorrectPronunciationProps {
   requiredCorrectAnswersInARow: number;
   wordChoices: string[];
   correctAnswers: number[];
   instructions: ReactElement;
 }
 
-const GuessCorrectPronunciation: React.FunctionComponent<
-  GuessCorrectPronunciationProps
-> = (props: GuessCorrectPronunciationProps) => {
+const GuessCorrectPronunciation: ExerciseComponentType<GuessCorrectPronunciationProps> = (props) => {
   const {
     onMarkAsCompleted,
     requiredCorrectAnswersInARow,

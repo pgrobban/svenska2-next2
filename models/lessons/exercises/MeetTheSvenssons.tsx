@@ -15,13 +15,13 @@ const exercises = [
     numberInLesson={1}
     title={"Who are they?"}
     ExerciseComponent={WhoAreThey}
+    exerciseComponentProps={{}}
   />,
   <Exercise
     key={2}
     id="written-word-test-meet-the-svenssons-1"
     numberInLesson={2}
     title="What do the words mean?"
-    // @ts-ignore
     ExerciseComponent={WrittenWordTest}
     exerciseComponentProps={{
       words: [
@@ -70,7 +70,6 @@ const exercises = [
     id="written-word-test-meet-the-svenssons-2"
     numberInLesson={3}
     title="How do you say it in Swedish?"
-    // @ts-ignore
     ExerciseComponent={WrittenWordTest}
     exerciseComponentProps={{
       words: [
@@ -119,7 +118,6 @@ const exercises = [
     id="choose-correct-option-meet-the-svenssons"
     numberInLesson={4}
     title="Choose the correct option"
-    // @ts-ignore
     ExerciseComponent={ChooseTheCorrectOption}
     exerciseComponentProps={{
       sentences: [
@@ -148,6 +146,7 @@ const exercises = [
     numberInLesson={5}
     title="Complete the self introduction"
     ExerciseComponent={CompleteTheSelfIntroduction}
+    exerciseComponentProps={{}}
   />,
 ];
 

@@ -9,7 +9,7 @@ import {
 } from "../../helpers/utils";
 import {
   CorrectIncorrectMark,
-  ExerciseComponentProps,
+  ExerciseComponentType
 } from "../../models/types";
 
 const defaultInstructions = (
@@ -23,15 +23,13 @@ const defaultInstructions = (
   </>
 );
 
-interface ChooseTheCorrectOptionProps extends ExerciseComponentProps {
+interface ChooseTheCorrectOptionProps {
   sentences: string[]; // of the form A__B where __ will mark where to split the string.
   choices: string[][]; // choice [x][0] will be correct
   instructions?: ReactElement;
 }
 
-const ChooseTheCorrectOption: React.FC<ChooseTheCorrectOptionProps> = (
-  props: ChooseTheCorrectOptionProps
-) => {
+const ChooseTheCorrectOption: ExerciseComponentType<ChooseTheCorrectOptionProps> = (props) => {
   const { onMarkAsCompleted, sentences, choices, instructions } = props;
 
   const randomSentences = generateRandomWords(sentences, sentences.length);
