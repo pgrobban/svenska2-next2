@@ -5,11 +5,11 @@ import { carouselProps } from "../helpers/props";
 import Carousel from "react-multi-carousel";
 import React from "react";
 import { IfDesktop, IfMobile } from "../helpers/showBasedOnScreen";
-import { CommonExerciseProps } from "./Exercise";
+import Exercise from "./Exercise";
 
 interface ExerciseViewProps {
   lessonName: string;
-  exercises: ReactElement<CommonExerciseProps>[];
+  exercises: typeof Exercise[];
 }
 
 const ExerciseView: React.FC<ExerciseViewProps> = (props) => {
@@ -31,9 +31,7 @@ const ExerciseView: React.FC<ExerciseViewProps> = (props) => {
             {...carouselProps}
             afterChange={(_, obj) => onSlideChange(obj.currentSlide)}
           >
-            {exercises.map((exercise, index) => (
-              <React.Fragment key={index}>{exercise}</React.Fragment>
-            ))}
+            {exercises}
           </Carousel>
         </IfMobile>
 

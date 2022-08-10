@@ -2,8 +2,9 @@ import intermediateGrammarCourse from "./courses/intermediateGrammarCourse";
 import pronunciationCourse from "./courses/pronunciationCourse";
 import readingMaterialCourse from "./courses/readingMaterialCourse";
 import theBasicsCourse from "./courses/theBasicsCourse";
+import { Course } from "./types";
 
-const courses = [
+const courses: Course[] = [
   {
     name: "Introduction to the site",
     urlName: "intro",

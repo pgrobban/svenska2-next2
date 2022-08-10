@@ -52,7 +52,10 @@ const Home: React.FC<Props> = () => {
             className="theme-swe-blue theme-swe-center"
             size="xl"
           />
-          <span>Interactive exercises and games - get scored instantly!</span>
+          <span>
+            Interactive exercises - get scored and receive feedback on how you
+            can improve
+          </span>
         </div>
         <div className="w3-col s6 m3">
           <Icon

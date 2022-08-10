@@ -7,9 +7,9 @@ import {
   Button,
 } from "@mui/material";
 import React, { useState } from "react";
-import { ExerciseProps } from "../../models/types";
+import { ExerciseComponentProps } from "../../models/types";
 
-interface CompleteTheSelfIntroductionProps extends ExerciseProps {}
+interface CompleteTheSelfIntroductionProps extends ExerciseComponentProps {}
 
 const CompleteTheSelfIntroduction: React.FC<
   CompleteTheSelfIntroductionProps

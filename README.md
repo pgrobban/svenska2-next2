@@ -29,8 +29,8 @@ If you haven't done so already, download and install [NodeJS](https://nodejs.org
 Clone the repo and go to the svenska2-next folder:
 
 ```
-git clone https://github.com/pgrobban/svenska2-next.git
-cd svenska2-next
+git clone https://github.com/pgrobban/svenska2-next2.git
+cd svenska2-next2
 ```
 
 Install the dependencies:
@@ -70,7 +70,7 @@ If everything went well, you can open your browser on the same URL as in the dev
 
 The `components` folder contains frontend components that can be reused over multiple views.
 
-The subfolder `exercises` contains base components for exercises.Lessons can have different instances of exercise components.
+The subfolder `exercises` contains base components for exercises. Lessons can have different instances of exercise components.
 The subfolder `layout` that the design is built upon. Specifically, the file `Layout.tsx` should be used as the base layout for all views.
 
 The `helpers` folder contains frontend helper functions, type definitions and default props for external dependency components.

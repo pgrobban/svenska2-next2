@@ -2,12 +2,12 @@ import React, { ReactElement, useState } from "react";
 import AudioButton from "../AudioButton";
 import { sample, without } from "lodash";
 import { Button } from "@mui/material";
-import { ExerciseProps } from "../../models/types";
+import { ExerciseComponentProps } from "../../models/types";
 
-export interface GuessCorrectPronunciationProps extends ExerciseProps {
+export interface GuessCorrectPronunciationProps extends ExerciseComponentProps {
   requiredCorrectAnswersInARow: number;
   wordChoices: string[];
-  correctAnswers: (1 | 2)[];
+  correctAnswers: number[];
   instructions: ReactElement;
 }
 
@@ -26,7 +26,7 @@ const GuessCorrectPronunciation: React.FunctionComponent<
   const randomWord = sample(wordChoices);
   const [currentWord, setCurrentWord] = useState(randomWord);
 
-  const makeGuess = (guess: 1 | 2) => {
+  const makeGuess = (guess: number) => {
     const currentWordIndex = wordChoices.indexOf(currentWord || "");
     if (correctAnswers[currentWordIndex] === guess) {
       const newCorrectAnswersInRow = correctAnswersInRow + 1;

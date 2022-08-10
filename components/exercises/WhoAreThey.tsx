@@ -7,7 +7,10 @@ import {
   TableRow,
   TextField,
 } from "@mui/material";
-import { CorrectIncorrectMark, ExerciseProps } from "../../models/types";
+import {
+  CorrectIncorrectMark,
+  ExerciseComponentProps,
+} from "../../models/types";
 import InstallingSwedishKeyboardInstructionsDialog, {
   OperatingSystem,
 } from "../InstallingSwedishKeyboardInstructionsDialog";
@@ -19,7 +22,7 @@ import {
 } from "../../helpers/utils";
 import Image from "next/image";
 
-export interface WhoAreTheyProps extends ExerciseProps {}
+export interface WhoAreTheyProps extends ExerciseComponentProps {}
 
 const SvenssonFamilyMembers = ["Håkan", "Lena", "Alfred", "Saga"];
 

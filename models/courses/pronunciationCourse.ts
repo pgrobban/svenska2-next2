@@ -6,8 +6,9 @@ import AdditionalSoundsChunks from "../lessons/lesson-contents/pronunciation/Add
 import LongAndShortVowelChunks from "../lessons/lesson-contents/pronunciation/LongAndShortVowels";
 import LongAndShortVowelExercises from "../lessons/exercises/LongAndShortVowels";
 import StressAndPitchAccentChunks from "../lessons/lesson-contents/pronunciation/StressAndPitchAccent";
+import { Course } from "../types";
 
-const pronunciationCourse = {
+const pronunciationCourse: Course = {
   name: "Course I: Pronunciation",
   urlName: "course-1",
   lessons: [

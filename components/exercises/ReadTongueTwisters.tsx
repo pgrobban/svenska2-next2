@@ -1,7 +1,7 @@
 import React from "react";
 import AudioButton from "../AudioButton";
 import { Button } from "@mui/material";
-import { ExerciseProps } from "../../models/types";
+import { ExerciseComponentProps } from "../../models/types";
 
 interface TongueTwister {
   header: string;
@@ -10,7 +10,7 @@ interface TongueTwister {
   label: string;
 }
 
-export interface ReadTongueTwistersProps extends ExerciseProps {
+export interface ReadTongueTwistersProps extends ExerciseComponentProps {
   tongueTwisters: TongueTwister[];
 }
 

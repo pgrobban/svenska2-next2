@@ -6,7 +6,6 @@ import WrittenWordTest, {
 } from "../../../components/exercises/WrittenWordTest";
 import WriteVerbForms from "../../../components/exercises/WriteVerbForms";
 import Exercise from "../../../components/Exercise";
-import { ExerciseProps } from "../../types";
 
 const exercises = [
   <Exercise

@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import { ExerciseProps } from "../models/types";
+import { ExerciseComponentType } from "../models/types";
 import Image from "next/image";
 
-export interface CommonExerciseProps {
+export interface CommonExerciseProps<C extends ExerciseComponentType> {
   id: string;
   numberInLesson: number;
   title: string;
-  ExerciseComponent: React.FC<ExerciseProps>;
-  exerciseComponentProps?: any;
   saolRequired?: boolean;
+  ExerciseComponent: C;
+  exerciseComponentProps?: Omit<React.ComponentProps<C>, "onMarkAsCompleted">;
 }
 
-const Exercise: React.FC<CommonExerciseProps> = (
-  props: CommonExerciseProps
+const Exercise = <C extends ExerciseComponentType>(
+  props: CommonExerciseProps<C>
 ) => {
   const [exerciseCompletionDate, setExerciseCompletionDate] =
     useState<Date | null>(null);
@@ -20,8 +20,8 @@ const Exercise: React.FC<CommonExerciseProps> = (
     numberInLesson,
     title,
     ExerciseComponent,
-    exerciseComponentProps,
     saolRequired,
+    exerciseComponentProps,
   } = props;
 
   return (
@@ -44,10 +44,11 @@ const Exercise: React.FC<CommonExerciseProps> = (
       </h3>
       {exerciseCompletionDate && (
         <small>
-          Completed on {exerciseCompletionDate.toISOString().substring(0, 6)}
+          Completed on {exerciseCompletionDate.toISOString().substring(0, 10)}
         </small>
       )}
 
+      {/* @ts-ignore */}
       <ExerciseComponent
         onMarkAsCompleted={
           !exerciseCompletionDate

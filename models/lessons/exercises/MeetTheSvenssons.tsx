@@ -120,7 +120,7 @@ const exercises = [
     numberInLesson={4}
     title="Choose the correct option"
     // @ts-ignore
-    ExeciseComponent={ChooseTheCorrectOption}
+    ExerciseComponent={ChooseTheCorrectOption}
     exerciseComponentProps={{
       sentences: [
         "Jenny __ i London.",

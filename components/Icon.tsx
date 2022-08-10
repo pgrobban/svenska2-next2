@@ -4,7 +4,6 @@ import {
   ArrowRight as ArrowRightIcon,
   Help as HelpIcon,
   VolumeUp as SoundIcon,
-  PlaylistAddCheck as PlaylistAddCheckIcon,
   Chat as ChatIcon,
   Search as SearchIcon,
   Stars as StarsIcon,
@@ -15,9 +14,9 @@ import {
   Close as CloseIcon,
   InfoOutlined as InfoIcon,
   Warning as WarningIcon,
+  FactCheck as ExerciseIcon,
 } from "@mui/icons-material";
 import Image from "next/image";
-// import FactCheckIcon from '@material-ui/icons/FactCheck';
 
 const icons = {
   close: <CloseIcon />,
@@ -25,7 +24,7 @@ const icons = {
   collapse: <ExpandLessIcon />,
   expand: <ExpandMoreIcon />,
   book: <ChromeReaderIcon />,
-  exercise: <PlaylistAddCheckIcon />, // factcheck is not working
+  exercise: <ExerciseIcon />,
   achievement: <StarsIcon />,
   chat: <ChatIcon />,
   search: <SearchIcon />,

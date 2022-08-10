@@ -7,7 +7,10 @@ import {
   getEmptyStringsArray,
   getNullArray,
 } from "../../helpers/utils";
-import { CorrectIncorrectMark, ExerciseProps } from "../../models/types";
+import {
+  CorrectIncorrectMark,
+  ExerciseComponentProps,
+} from "../../models/types";
 
 const defaultInstructions = (
   <>
@@ -20,7 +23,7 @@ const defaultInstructions = (
   </>
 );
 
-interface ChooseTheCorrectOptionProps extends ExerciseProps {
+interface ChooseTheCorrectOptionProps extends ExerciseComponentProps {
   sentences: string[]; // of the form A__B where __ will mark where to split the string.
   choices: string[][]; // choice [x][0] will be correct
   instructions?: ReactElement;

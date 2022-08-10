@@ -1,9 +1,10 @@
-import { ReactElement, ReactNode } from "react";
-import { CommonExerciseProps } from "../components/Exercise";
+import { ComponentType, ReactElement, ReactNode } from "react";
+import Exercise from "../components/Exercise";
 
 export interface Course {
   name: string;
   lessons: Lesson[];
+  urlName: string;
 }
 
 export interface Lesson {
@@ -11,15 +12,17 @@ export interface Lesson {
   urlName: string;
   description: string;
   chunks: ReactElement[];
-  exercises: ReactElement<CommonExerciseProps>[];
+  exercises: typeof Exercise[];
   viewProps?: {
     hideBottomNavigation?: boolean;
   };
 }
 
-export interface ExerciseProps {
+export interface ExerciseComponentProps {
   onMarkAsCompleted: () => void;
 }
+
+export type ExerciseComponentType = ComponentType<ExerciseComponentProps>;
 
 export enum WordClass {
   Noun = "N",

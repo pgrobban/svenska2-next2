@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { Button, TextField } from "@mui/material";
 import { LETTERS_OF_ALPHABET } from "../../helpers/utils";
-import { ExerciseProps } from "../../models/types";
+import {
+  ExerciseComponentProps,
+  ExerciseComponentType,
+} from "../../models/types";
 import InstallingSwedishKeyboardInstructionsDialog, {
   OperatingSystem,
 } from "../InstallingSwedishKeyboardInstructionsDialog";
@@ -9,9 +12,9 @@ import Image from "next/image";
 
 const REQUIRED_TIMES_FOR_COMPLETION = 3;
 
-interface TypingTheAlphabetProps extends ExerciseProps {}
+interface TypingTheAlphabetProps extends ExerciseComponentProps {}
 
-const TypingTheAlphabet: React.FunctionComponent<TypingTheAlphabetProps> = (
+const TypingTheAlphabet: ExerciseComponentType = (
   props: TypingTheAlphabetProps
 ) => {
   const { onMarkAsCompleted } = props;

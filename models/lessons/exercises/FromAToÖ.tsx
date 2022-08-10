@@ -4,7 +4,6 @@ import { VOWELS, CONSONANTS } from "../../../helpers/utils";
 import TypingTheAlphabet from "../../../components/exercises/TypingTheAlphabet";
 import WhichLetter from "../../../components/exercises/WhichLetter";
 import WriteWhatYouHear from "../../../components/exercises/WriteWhatYouHear";
-import { ExerciseProps } from "../../types";
 
 const whichLetterVowelInstructions = (
   <>

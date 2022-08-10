@@ -2,10 +2,10 @@ import React, { useState, ReactElement } from "react";
 import AudioButton from "../AudioButton";
 import { sample, map } from "lodash";
 import { Button } from "@mui/material";
-import { ExerciseProps } from "../../models/types";
+import { ExerciseComponentProps } from "../../models/types";
 import { isVowel } from "../../helpers/utils";
 
-export interface WhichLetterProps extends ExerciseProps {
+export interface WhichLetterProps extends ExerciseComponentProps {
   requiredCorrectAnswersInARow: number;
   letterChoices: string[];
   instructions: ReactElement;

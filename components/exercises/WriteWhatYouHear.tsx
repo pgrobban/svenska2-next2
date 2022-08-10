@@ -8,9 +8,12 @@ import {
   getBorderColorByMark,
   normalizeInputs,
 } from "../../helpers/utils";
-import { CorrectIncorrectMark, ExerciseProps } from "../../models/types";
+import {
+  CorrectIncorrectMark,
+  ExerciseComponentProps,
+} from "../../models/types";
 
-interface WriteWhatYouHearProps extends ExerciseProps {
+interface WriteWhatYouHearProps extends ExerciseComponentProps {
   words: string[];
   numberOfWordsToSample: number;
 }

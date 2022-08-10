@@ -10,7 +10,10 @@ import {
   TableCell,
   TableRow,
 } from "@mui/material";
-import { CorrectIncorrectMark, ExerciseProps } from "../../models/types";
+import {
+  CorrectIncorrectMark,
+  ExerciseComponentProps,
+} from "../../models/types";
 import {
   generateRandomWords,
   getBorderColorByMark,
@@ -45,7 +48,7 @@ export const englishToSwedishDefaultInstructions = (
   </>
 );
 
-interface WrittenWordTestProps extends ExerciseProps {
+interface WrittenWordTestProps extends ExerciseComponentProps {
   words: string[];
   meanings: string[];
   numberOfWordsToSample: number;
