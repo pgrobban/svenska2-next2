@@ -2,18 +2,16 @@ import React, { useState } from "react";
 import { ExerciseComponentType } from "../models/types";
 import Image from "next/image";
 
-export interface CommonExerciseProps<C extends ExerciseComponentType> {
+export interface CommonExerciseProps<P extends object> {
   id: string;
   numberInLesson: number;
   title: string;
   saolRequired?: boolean;
-  ExerciseComponent: C;
-  exerciseComponentProps?: Omit<React.ComponentProps<C>, "onMarkAsCompleted">;
+  ExerciseComponent: ExerciseComponentType<P>;
+  exerciseComponentProps: P;
 }
 
-const Exercise = <C extends ExerciseComponentType>(
-  props: CommonExerciseProps<C>
-) => {
+const Exercise = <P extends object = {}>(props: CommonExerciseProps<P>) => {
   const [exerciseCompletionDate, setExerciseCompletionDate] =
     useState<Date | null>(null);
   const {
@@ -48,7 +46,6 @@ const Exercise = <C extends ExerciseComponentType>(
         </small>
       )}
 
-      {/* @ts-ignore */}
       <ExerciseComponent
         onMarkAsCompleted={
           !exerciseCompletionDate

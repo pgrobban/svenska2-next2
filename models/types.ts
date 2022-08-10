@@ -22,7 +22,7 @@ export interface ExerciseComponentProps {
   onMarkAsCompleted: () => void;
 }
 
-export type ExerciseComponentType = ComponentType<ExerciseComponentProps>;
+export type ExerciseComponentType<ComponentProps> = ComponentType<ExerciseComponentProps & ComponentProps>;
 
 export enum WordClass {
   Noun = "N",

@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import {
   CorrectIncorrectMark,
-  ExerciseComponentProps,
+  ExerciseComponentType
 } from "../../models/types";
 import InstallingSwedishKeyboardInstructionsDialog, {
   OperatingSystem,
@@ -22,13 +22,11 @@ import {
 } from "../../helpers/utils";
 import Image from "next/image";
 
-export interface WhoAreTheyProps extends ExerciseComponentProps {}
+export interface WhoAreTheyProps {}
 
 const SvenssonFamilyMembers = ["Håkan", "Lena", "Alfred", "Saga"];
 
-const WhoAreThey: React.FunctionComponent<WhoAreTheyProps> = (
-  props: WhoAreTheyProps
-) => {
+const WhoAreThey: ExerciseComponentType<WhoAreTheyProps> = (props) => {
   const { onMarkAsCompleted } = props;
   const [guideOpen, setGuideOpen] = useState<OperatingSystem | null>(null);
   const [inputs, setInputs] = useState<string[]>(

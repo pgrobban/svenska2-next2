@@ -13,7 +13,6 @@ const exercises = [
     id="written-word-test-the-svenssons-have-a-dog-1"
     numberInLesson={1}
     title="What do the words mean?"
-    // @ts-ignore
     ExerciseComponent={WrittenWordTest}
     exerciseComponentProps={{
       words: [
@@ -56,7 +55,6 @@ const exercises = [
     id="written-word-test-the-svenssons-have-a-dog-2"
     numberInLesson={2}
     title="How do you say it in Swedish?"
-    // @ts-ignore
     ExerciseComponent={WrittenWordTest}
     exerciseComponentProps={{
       words: [
@@ -99,7 +97,6 @@ const exercises = [
     id="choose-correct-option-the-svenssons-have-a-dog"
     numberInLesson={3}
     title="Choose the correct option"
-    // @ts-ignore
     ExerciseComponent={ChooseTheCorrectOption}
     exerciseComponentProps={{
       instructions: (
@@ -151,7 +148,6 @@ const exercises = [
     id="write-sentences-the-svenssons-have-a-dog"
     numberInLesson={4}
     title="Write sentences"
-    // @ts-ignore
     ExerciseComponent={WriteSentences}
     exerciseComponentProps={{
       sentences: [

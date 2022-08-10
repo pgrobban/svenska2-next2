@@ -8,7 +8,6 @@ const exercises = [
     id={"tongue-twister-sh"}
     numberInLesson={1}
     title={"Tongue twister - SH sound"}
-    // @ts-ignore
     ExerciseComponent={ReadTongueTwisters}
     exerciseComponentProps={{
       tongueTwisters: [

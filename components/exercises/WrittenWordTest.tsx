@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import {
   CorrectIncorrectMark,
-  ExerciseComponentProps,
+  ExerciseComponentType
 } from "../../models/types";
 import {
   generateRandomWords,
@@ -48,7 +48,7 @@ export const englishToSwedishDefaultInstructions = (
   </>
 );
 
-interface WrittenWordTestProps extends ExerciseComponentProps {
+interface WrittenWordTestProps {
   words: string[];
   meanings: string[];
   numberOfWordsToSample: number;
@@ -56,9 +56,7 @@ interface WrittenWordTestProps extends ExerciseComponentProps {
   instructions: ReactElement;
 }
 
-const WrittenWordTest: React.FunctionComponent<WrittenWordTestProps> = (
-  props: WrittenWordTestProps
-) => {
+const WrittenWordTest: ExerciseComponentType<WrittenWordTestProps> = (props) => {
   const {
     words,
     meanings,

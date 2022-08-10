@@ -1,7 +1,7 @@
 import React from "react";
 import AudioButton from "../AudioButton";
 import { Button } from "@mui/material";
-import { ExerciseComponentProps } from "../../models/types";
+import { ExerciseComponentType } from "../../models/types";
 
 interface TongueTwister {
   header: string;
@@ -10,13 +10,11 @@ interface TongueTwister {
   label: string;
 }
 
-export interface ReadTongueTwistersProps extends ExerciseComponentProps {
+export interface ReadTongueTwistersProps {
   tongueTwisters: TongueTwister[];
 }
 
-const ReadTongueTwisters: React.FunctionComponent<ReadTongueTwistersProps> = (
-  props: ReadTongueTwistersProps
-) => {
+const ReadTongueTwisters: ExerciseComponentType<ReadTongueTwistersProps> = (props) => {
   const { tongueTwisters, onMarkAsCompleted } = props;
 
   return (

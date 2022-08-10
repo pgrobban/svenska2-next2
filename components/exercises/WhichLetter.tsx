@@ -2,18 +2,16 @@ import React, { useState, ReactElement } from "react";
 import AudioButton from "../AudioButton";
 import { sample, map } from "lodash";
 import { Button } from "@mui/material";
-import { ExerciseComponentProps } from "../../models/types";
+import { ExerciseComponentType } from "../../models/types";
 import { isVowel } from "../../helpers/utils";
 
-export interface WhichLetterProps extends ExerciseComponentProps {
+export interface WhichLetterProps {
   requiredCorrectAnswersInARow: number;
   letterChoices: string[];
   instructions: ReactElement;
 }
 
-const WhichLetter: React.FunctionComponent<WhichLetterProps> = (
-  props: WhichLetterProps
-) => {
+const WhichLetter: ExerciseComponentType<WhichLetterProps> = (props) => {
   const {
     requiredCorrectAnswersInARow,
     letterChoices,
