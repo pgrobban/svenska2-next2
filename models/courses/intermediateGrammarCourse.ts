@@ -5,7 +5,6 @@ const intermediateGrammarCourse: Course = {
   urlName: "course-3",
   lessons: [
     {
-      number: 0,
       urlName: "course-3-overview",
       name: "Course overview",
       description: "See an overview of all lessons in this course.",
