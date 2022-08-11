@@ -1,4 +1,6 @@
-const intermediateGrammarCourse = {
+import { Course } from "../types";
+
+const intermediateGrammarCourse: Course = {
   name: "Course III: Intermediate grammar",
   urlName: "course-3",
   lessons: [

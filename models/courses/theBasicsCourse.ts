@@ -18,19 +18,21 @@ import whosOnFirstLessonChunks from "../lessons/lesson-contents/the-basics/WhosO
 import iveGotADateLessonChunks from "../lessons/lesson-contents/the-basics/IveGotADate";
 import hakansPhoneIsBrokenLessonChunks from "../lessons/lesson-contents/the-basics/HakansPhoneIsBroken";
 import fiveAntsAreMoreThanFourElephantsLessonChunks from "../lessons/lesson-contents/the-basics/FiveAntsAreMoreThanFourElephants";
+import { Course } from "../types";
 
-const theBasicsCourse = {
+const theBasicsCourse: Course = {
   name: "Course II: The basics",
   urlName: "course-2",
   lessons: [
     {
-      number: 0,
       urlName: "course-2",
       name: "Course overview",
       description: "See an overview of all lessons in this course.",
       chunks: [],
       exercises: [],
-      hideBottomNavigation: true,
+      viewProps: {
+        hideBottomNavigation: true,
+      },
     },
     {
       name: "Meet the Svenssons",
