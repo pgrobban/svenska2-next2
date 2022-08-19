@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import { ExerciseComponentType } from "../models/types";
 import Image from "next/image";
 
+type pickOutGenericType<T> = T extends ExerciseComponentType<infer P> ? P : never;
+
 export interface CommonExerciseProps<P extends object> {
   id: string;
   numberInLesson: number;
   title: string;
   saolRequired?: boolean;
   ExerciseComponent: ExerciseComponentType<P>;
-  exerciseComponentProps: P;
+  exerciseComponentProps: pickOutGenericType<CommonExerciseProps<P>["ExerciseComponent"]>;
 }
 
 const Exercise = <P extends object = {}>(props: CommonExerciseProps<P>) => {
