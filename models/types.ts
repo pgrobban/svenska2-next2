@@ -1,5 +1,7 @@
-import { ComponentType, ReactElement, ReactNode } from "react";
+import React, { ComponentType, ReactElement, ReactNode } from "react";
 import Exercise from "../components/Exercise";
+import TypingTheAlphabet from "../components/exercises/TypingTheAlphabet";
+import WriteSentences from "../components/exercises/WriteSentences";
 
 export interface Course {
   name: string;
@@ -22,7 +24,8 @@ export interface ExerciseComponentProps {
   onMarkAsCompleted: () => void;
 }
 
-export type ExerciseComponentType<ComponentProps> = ComponentType<ExerciseComponentProps & ComponentProps>;
+export type ExerciseComponentType<Props extends ExerciseComponentProps> =
+  React.FC<Props>;
 
 export enum WordClass {
   Noun = "N",

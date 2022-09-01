@@ -11,7 +11,7 @@ const REQUIRED_TIMES_FOR_COMPLETION = 3;
 
 interface TypingTheAlphabetProps {}
 
-const TypingTheAlphabet: ExerciseComponentType<TypingTheAlphabetProps> = (props) => {
+const TypingTheAlphabet = (props: TypingTheAlphabetProps) => {
   const { onMarkAsCompleted } = props;
   const [inputText, setInputText] = useState("");
   const [alphabetCompletedTimes, setAlphabetCompletedTimes] = useState(0);
