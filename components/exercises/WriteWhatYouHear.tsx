@@ -11,15 +11,16 @@ import {
 import {
   CorrectIncorrectMark,
   ExerciseComponentProps,
+  ExerciseComponentType,
 } from "../../models/types";
 
-interface WriteWhatYouHearProps extends ExerciseComponentProps {
+export interface WriteWhatYouHearProps extends ExerciseComponentProps {
   words: string[];
   numberOfWordsToSample: number;
 }
 
-const WriteWhatYouHear: React.FunctionComponent<WriteWhatYouHearProps> = (
-  props: WriteWhatYouHearProps
+const WriteWhatYouHear: ExerciseComponentType<WriteWhatYouHearProps> = (
+  props
 ) => {
   const { words, numberOfWordsToSample, onMarkAsCompleted } = props;
   const randomWords = generateRandomWords(words, numberOfWordsToSample);

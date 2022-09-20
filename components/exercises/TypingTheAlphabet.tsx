@@ -9,9 +9,13 @@ import Image from "next/image";
 
 const REQUIRED_TIMES_FOR_COMPLETION = 3;
 
-interface TypingTheAlphabetProps {}
+export interface TypingTheAlphabetProps {
+  onMarkAsCompleted: () => void;
+}
 
-const TypingTheAlphabet = (props: TypingTheAlphabetProps) => {
+const TypingTheAlphabet: ExerciseComponentType<TypingTheAlphabetProps> = (
+  props
+) => {
   const { onMarkAsCompleted } = props;
   const [inputText, setInputText] = useState("");
   const [alphabetCompletedTimes, setAlphabetCompletedTimes] = useState(0);

@@ -1,18 +1,44 @@
-import React, { ComponentProps, useState } from "react";
-import { ExerciseComponentType } from "../models/types";
+import React, { Component, ComponentProps, useState } from "react";
 import Image from "next/image";
-export interface CommonExerciseProps<ExerciseComponentType> {
+import TypingTheAlphabet, {
+  TypingTheAlphabetProps,
+} from "./exercises/TypingTheAlphabet";
+import WhichLetter, { WhichLetterProps } from "./exercises/WhichLetter";
+import WriteWhatYouHear, {
+  WriteWhatYouHearProps,
+} from "./exercises/WriteWhatYouHear";
+
+interface CommonExerciseProps {
   id: string;
   numberInLesson: number;
   title: string;
   saolRequired?: boolean;
-  ExerciseComponent: ExerciseComponentType;
-  exerciseComponentProps: ComponentProps<ExerciseComponentType>;
 }
 
-const Exercise = (props: CommonExerciseProps<ExerciseComponentType<P>>) => {
+interface TypingTheAlphabetExerciseProps extends CommonExerciseProps {
+  ExerciseComponent: typeof TypingTheAlphabet;
+  exerciseComponentProps: Omit<TypingTheAlphabetProps, "onMarkAsCompleted">;
+}
+
+interface WhichLetterExerciseProps extends CommonExerciseProps {
+  ExerciseComponent: typeof WhichLetter;
+  exerciseComponentProps: Omit<WhichLetterProps, "onMarkAsCompleted">;
+}
+
+interface WriteWhatYouHearExerciseProps extends CommonExerciseProps {
+  ExerciseComponent: typeof WriteWhatYouHear;
+  exerciseComponentProps: Omit<WriteWhatYouHearProps, "onMarkAsCompleted">;
+}
+
+export type ExerciseProps =
+  | TypingTheAlphabetExerciseProps
+  | WhichLetterExerciseProps
+  | WriteWhatYouHearExerciseProps;
+
+const Exercise: React.FC<ExerciseProps> = (props) => {
   const [exerciseCompletionDate, setExerciseCompletionDate] =
     useState<Date | null>(null);
+
   const {
     numberInLesson,
     title,
